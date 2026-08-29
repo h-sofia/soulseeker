@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Scenes\\sprites\\lvl1\\BG_FLOOR_0.asset",
+    "assetName": "BG_FLOOR_0",
+    "assetId": "6a905af1b04d6721c95ab8cc",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "73cfe690-f889-4635-a034-d3a1f17f4127",
+    "sequenceNumber": 1,
+    "updated": "2026-08-27T15:42:54.0480000Z",
+    "timestamp": 1787628264,
+    "checksum": "a5e032ae464372ff006d9b5b5d5638d4",
+    "metaFileChecksum": "ec5706870d0c67a23596752423114c2f",
+    "metaFileTimestamp": 1787628264,
+    "unityGUID": "e50c23100700a9249823f832537632e9"
+}

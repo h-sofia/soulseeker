@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Scenes\\sprites\\lvl1\\walls_levelone_0.asset",
+    "assetName": "walls_levelone_0",
+    "assetId": "6a905af1d4630516a53fab88",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "9426d81d-777d-47d1-b5bb-8e99d41e449e",
+    "sequenceNumber": 1,
+    "updated": "2026-08-27T15:42:51.3950000Z",
+    "timestamp": 1787676344,
+    "checksum": "79095b250b6b514bcece28bc0181c152",
+    "metaFileChecksum": "497509fa1668af108975a50ffb6ab8b3",
+    "metaFileTimestamp": 1787676344,
+    "unityGUID": "3c90df844ac6b224fa78498da198b00c"
+}

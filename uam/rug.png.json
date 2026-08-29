@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "rug.png",
+    "assetName": "rug",
+    "assetId": "6a905b59f5115e83552d0d68",
+    "datasetId": "535efc98-f43f-4122-9741-d380633a86d6",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "7353fd72-6cd8-4e3e-8da0-3290f3d94b73",
+    "sequenceNumber": 1,
+    "updated": "2026-08-27T15:44:29.8620000Z",
+    "timestamp": 1787801376,
+    "checksum": "0a13f02d7c4cfe86e423e83632260aff",
+    "metaFileChecksum": "2cb969d992309743d6db9cbb89ed3244",
+    "metaFileTimestamp": 1787801384,
+    "unityGUID": "336f09416922d014da57abb0fd303768"
+}

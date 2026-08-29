@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "couchBack.png",
+    "assetName": "couchBack",
+    "assetId": "6a905af16f79efd537298ed3",
+    "datasetId": "6c156efe-5a7d-4a45-a985-dd52273cd79d",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "387d4892-fc93-4122-804d-b63bc1a1ee82",
+    "sequenceNumber": 1,
+    "updated": "2026-08-27T15:42:50.2620000Z",
+    "timestamp": 1787803048,
+    "checksum": "cc4fc342ab50a2dea4ff0aea9268614e",
+    "metaFileChecksum": "4d05108e16fae9be616f503dc1abd1d8",
+    "metaFileTimestamp": 1787803060,
+    "unityGUID": "0bd77ba94edf2454d9dd339bae2735cc"
+}

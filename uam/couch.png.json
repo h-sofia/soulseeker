@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "couch.png",
+    "assetName": "couch",
+    "assetId": "6a905af12c337df9a4e8fab8",
+    "datasetId": "608fe356-be06-4c15-8ccf-7954bf51c77e",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "a0abeeac-bd01-46cf-837e-ff6dfeec7ba9",
+    "sequenceNumber": 1,
+    "updated": "2026-08-27T15:42:50.1190000Z",
+    "timestamp": 1787802748,
+    "checksum": "3bab40f3df71f4c254632441522b4aa0",
+    "metaFileChecksum": "553928633b107d556d9675ab9cb3c79f",
+    "metaFileTimestamp": 1787802780,
+    "unityGUID": "dad371b524741ec4e9e01ee38916e2c7"
+}

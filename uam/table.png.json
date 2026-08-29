@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "table.png",
+    "assetName": "table",
+    "assetId": "6a905af1823b3a25b4b1a1f1",
+    "datasetId": "df81e78d-254b-4879-b288-0491365727b5",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "cf729018-4917-479d-8cd0-882994a2d327",
+    "sequenceNumber": 1,
+    "updated": "2026-08-27T15:42:49.8620000Z",
+    "timestamp": 1787801682,
+    "checksum": "e3079bf0226c2d7e9d45977bf947b383",
+    "metaFileChecksum": "d18c5805b9de9df782f6cfc844273125",
+    "metaFileTimestamp": 1787801700,
+    "unityGUID": "c5aa5634b5a6c564991b98e2af34e9d8"
+}

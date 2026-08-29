@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Prefabs\\modular_muebles.prefab",
+    "assetName": "modular_muebles",
+    "assetId": "6a905af1ac3b15789abf19fc",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "12459936-8a39-4093-bd99-9af6fc471daf",
+    "sequenceNumber": 1,
+    "updated": "2026-08-27T15:42:51.4510000Z",
+    "timestamp": 1787803126,
+    "checksum": "6cf3267ca3885cff65222e7b570d22fc",
+    "metaFileChecksum": "4a96801cd330cc1b5d3590922c07a36a",
+    "metaFileTimestamp": 1787803126,
+    "unityGUID": "cd89fd98125ff2842b8ef02045ab207e"
+}

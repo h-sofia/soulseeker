@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "bookshelf.png",
+    "assetName": "bookshelf",
+    "assetId": "6a905af1f5115e83552d0d39",
+    "datasetId": "c231d8dd-72d8-4ac2-a88b-1e4a75590db2",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "86fbfa5d-b0aa-4c92-b573-10c516cecb9b",
+    "sequenceNumber": 1,
+    "updated": "2026-08-27T15:42:50.3070000Z",
+    "timestamp": 1787801188,
+    "checksum": "8448311854e81534677821dde02f9989",
+    "metaFileChecksum": "296daaa56bb1122d8c6587a79985ce0f",
+    "metaFileTimestamp": 1787801204,
+    "unityGUID": "641537aa08c2a9343916cef3846b4834"
+}

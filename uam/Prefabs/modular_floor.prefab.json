@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "Prefabs\\modular_floor.prefab",
+    "assetName": "modular_floor",
+    "assetId": "6a905af04c269b7c2299ef1a",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "15bcf9b5-7aeb-451c-a853-0d9b868a57be",
+    "sequenceNumber": 1,
+    "updated": "2026-08-27T15:42:51.6150000Z",
+    "timestamp": 1787801062,
+    "checksum": "8db23eae04d7d345a427a2f15eeccf4e",
+    "metaFileChecksum": "8bed0df53f7403ec974fb20c45e96cda",
+    "metaFileTimestamp": 1787801064,
+    "unityGUID": "c739226123d3f4640a1d61cea795e6b8"
+}
