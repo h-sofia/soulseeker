@@ -16,3 +16,5 @@
 *.booproj
 *.svclog
 *.cache
+*.logs
+*.usersettings
