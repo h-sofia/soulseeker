@@ -25032,3 +25032,26 @@ Importing 'GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleSc
 Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: 'c34d5d12dec0a4cf7b0e33435a2135e4') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=d9e1b38d15056e7131fe2ca7dd7db718 DependenciesID=5923c645686169fcf69d7efa37ebf338 StaticDependenciesID=44bedf647a3100c783cde3cbdb4281ab 
 Refreshing native plugins compatible for Editor in 3.99 ms, found 5 plugins.
 Asset Pipeline Refresh (id=99e076261ec175d4aae5aa643e5c21d5): Total: 0.109 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=ea792b2f631e85d4a81ff9b672700a31): Total: 0.014 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=094eeaf503a178f4b853a7300b8146e0): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 1734221; Successful remaps: 166238
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout C:\Users\paois\Documents\SoulSeeker\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/paois/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-paois-6000.5.8-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-paois-6000.5.8 channel disconnected successfully.
+Shut down.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 4184
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1788048197709,"processId":29172,"allocatedMemory":59652152,"memoryLabels":[{"Default":261372},{"Permanent":15516},{"NewDelete":83869},{"Thread":4206200},{"Manager":824424},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":866123},{"Material":1424},{"GfxDevice":124736},{"GfxThread":3072},{"Animation":3671096},{"Audio":592},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":207104},{"Input":45280},{"JobScheduler":256},{"TextLib":48862},{"Mono":48},{"MonoCode":1664},{"ScriptingNativeRuntime":2255020},{"BaseObject":1623816},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":57479},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9806},{"StaticString":3808},{"Utility":2675058},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":5285481},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"CloudService":6920},{"WebRequest":13934},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33064664},{"Camera":17},{"Secure":2729},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1256000},{"CoreStats":13688},{"Identifiers":6768},{"Gui":803030},{"EditorUtility":323162},{"VersionControl":8},{"Undo":931},{"AssetDatabase":5055463},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35345},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3480},{"Windowing":456},{"TLS":24185},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}
