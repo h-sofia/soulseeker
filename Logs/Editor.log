@@ -1026,3 +1026,17 @@ Serialized file version minimum: 22, current 23
 Input System module state changed to: ShutdownInProgress.
 Input Polling Thread exited.
 Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-May-6000.5.8-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-May-6000.5.8 channel disconnected successfully.
+Shut down.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 4716
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1788040010393,"processId":10472,"allocatedMemory":53650907,"memoryLabels":[{"Default":232871},{"Permanent":15516},{"NewDelete":67029},{"Thread":4205944},{"Manager":818824},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":865196},{"Material":24},{"GfxDevice":62744},{"GfxThread":2304},{"Animation":952},{"Audio":1544},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":163512},{"Input":45280},{"JobScheduler":256},{"TextLib":14806},{"Mono":48},{"MonoCode":128},{"ScriptingNativeRuntime":1859556},{"BaseObject":1630408},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":27773},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":9520},{"StaticString":3808},{"Utility":2672906},{"Curl":48},{"PoolAlloc":2360},{"AI":80},{"TypeTree":17804},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7208},{"WebRequest":308298},{"VR":47114},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33078200},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":1420280},{"CoreStats":13688},{"Identifiers":6768},{"Gui":267902},{"EditorUtility":282956},{"VersionControl":8},{"Undo":931},{"AssetDatabase":5057684},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35385},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":209},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3476},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}

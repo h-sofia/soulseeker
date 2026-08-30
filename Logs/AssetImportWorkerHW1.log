@@ -302,3 +302,8 @@ Importing 'GUID: 696e83ae9d30ffe48b21f2fb47b59f71 - Path: Assets/bedmom.png - Im
 Imported 'GUID: 696e83ae9d30ffe48b21f2fb47b59f71' -> (Import Result ID: '74e71d575fadc630b6786052744c7f7a') in 0.535 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4e27d6c4df0c5a6aedcf78f8a8489dc DependenciesID=2741d5f7a4970b6bc92a55fdfcaddaf7 StaticDependenciesID=daeb8ff5fbca645f11a9a4e6249c0156 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

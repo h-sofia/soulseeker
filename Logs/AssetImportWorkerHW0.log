@@ -347,3 +347,8 @@ Importing 'GUID: 8c9cfa26abfee488c85f1582747f6a02 - Path: Assets/Scenes/SampleSc
 Imported 'GUID: 8c9cfa26abfee488c85f1582747f6a02' -> (Import Result ID: '62956e6e3569b8674737cb5b5fc4c2b8') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ad7bc4d96cb2ecec9274a04ece54392 DependenciesID=fa208673809295e254f2f8cd42497a5b StaticDependenciesID=42fc40d953b2b31a054d27119a83040d 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
