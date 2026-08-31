@@ -1,0 +1,1612 @@
+fileFormatVersion: 2
+guid: 17957a65cc6ffc24b856ea5b7dd0ff21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 76622189844780178
+    second: clothesfloor_0
+  - first:
+      213: 1178032818304772879
+    second: clothesfloor_1
+  - first:
+      213: -9030966728322428716
+    second: clothesfloor_2
+  - first:
+      213: 2334976955886881781
+    second: clothesfloor_3
+  - first:
+      213: -1224056393465938598
+    second: clothesfloor_4
+  - first:
+      213: 2213536811152209050
+    second: clothesfloor_5
+  - first:
+      213: 1248650083790001514
+    second: clothesfloor_6
+  - first:
+      213: 4730125949404621461
+    second: clothesfloor_7
+  - first:
+      213: 2142627587851189859
+    second: clothesfloor_8
+  - first:
+      213: 1655451506763497039
+    second: clothesfloor_9
+  - first:
+      213: -760021356059126447
+    second: clothesfloor_10
+  - first:
+      213: -272852023850975654
+    second: clothesfloor_11
+  - first:
+      213: 7666306807558724124
+    second: clothesfloor_12
+  - first:
+      213: -6306219565869657979
+    second: clothesfloor_13
+  - first:
+      213: 6387368680093690733
+    second: clothesfloor_14
+  - first:
+      213: 930966896201422513
+    second: clothesfloor_15
+  - first:
+      213: -5547121535775926192
+    second: clothesfloor_16
+  - first:
+      213: -3483365702948349655
+    second: clothesfloor_17
+  - first:
+      213: 6100355761284598440
+    second: clothesfloor_18
+  - first:
+      213: -6997212755689169971
+    second: clothesfloor_19
+  - first:
+      213: -6831319627439728006
+    second: clothesfloor_20
+  - first:
+      213: -995195908333649033
+    second: clothesfloor_21
+  - first:
+      213: 3571342325294319599
+    second: clothesfloor_22
+  - first:
+      213: 4947859496386587883
+    second: clothesfloor_23
+  - first:
+      213: -587428070693482395
+    second: clothesfloor_24
+  - first:
+      213: -7029039263461208384
+    second: clothesfloor_25
+  - first:
+      213: -455983442661802622
+    second: clothesfloor_26
+  - first:
+      213: 1522960223794815064
+    second: clothesfloor_27
+  - first:
+      213: -2331110257620048833
+    second: clothesfloor_28
+  - first:
+      213: -6823933424542299034
+    second: clothesfloor_29
+  - first:
+      213: -918611165018176510
+    second: clothesfloor_30
+  - first:
+      213: 7469394096146152109
+    second: clothesfloor_31
+  - first:
+      213: -3592121620651314806
+    second: clothesfloor_32
+  - first:
+      213: 3205838447598745809
+    second: clothesfloor_33
+  - first:
+      213: -2376837238105221325
+    second: clothesfloor_34
+  - first:
+      213: 4337263079692708532
+    second: clothesfloor_35
+  - first:
+      213: 6711181050447971882
+    second: clothesfloor_36
+  - first:
+      213: -1106199700264712513
+    second: clothesfloor_37
+  - first:
+      213: 3049149220290910073
+    second: clothesfloor_38
+  - first:
+      213: -4735326627131988800
+    second: clothesfloor_39
+  - first:
+      213: -5493161875100391908
+    second: clothesfloor_40
+  - first:
+      213: 4903988777236889037
+    second: clothesfloor_41
+  - first:
+      213: -922590656798953263
+    second: clothesfloor_42
+  - first:
+      213: -5518802187021256041
+    second: clothesfloor_43
+  - first:
+      213: -7109412273595941548
+    second: clothesfloor_44
+  - first:
+      213: 4409578316486260955
+    second: clothesfloor_45
+  - first:
+      213: -7721321657675342906
+    second: clothesfloor_46
+  - first:
+      213: 2252724655116255627
+    second: clothesfloor_47
+  - first:
+      213: 2588302202360622029
+    second: clothesfloor_48
+  - first:
+      213: 7052819845442070531
+    second: clothesfloor_49
+  - first:
+      213: 8280615880069665723
+    second: clothesfloor_50
+  - first:
+      213: -2473575191718064345
+    second: clothesfloor_51
+  - first:
+      213: -8534935623618582479
+    second: clothesfloor_52
+  - first:
+      213: -3298873071136008167
+    second: clothesfloor_53
+  - first:
+      213: -2599272302632500065
+    second: clothesfloor_54
+  - first:
+      213: -8857558957046167751
+    second: clothesfloor_55
+  - first:
+      213: -185542983465731365
+    second: clothesfloor_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clothesfloor_0
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1465
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2945c97c977301100800000000000000
+      internalID: 76622189844780178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_1
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1385
+        width: 135
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0beec45b96395010800000000000000
+      internalID: 1178032818304772879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_2
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1301
+        width: 116
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d058f3db9f8ba280800000000000000
+      internalID: -9030966728322428716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_3
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1338
+        width: 186
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb4c5e8b21876020800000000000000
+      internalID: 2334976955886881781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_4
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1271
+        width: 154
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dba6a0237430fe0800000000000000
+      internalID: -1224056393465938598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_5
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1498
+        width: 133
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a947afd700018be10800000000000000
+      internalID: 2213536811152209050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_6
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1434
+        width: 132
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a659015b2a8145110800000000000000
+      internalID: 1248650083790001514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_7
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1400
+        width: 249
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59aae1d5d78c4a140800000000000000
+      internalID: 4730125949404621461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_8
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1367
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e72d360742cbd10800000000000000
+      internalID: 2142627587851189859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_9
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1394
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ef58bdf5859f610800000000000000
+      internalID: 1655451506763497039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_10
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1254
+        width: 389
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155926a7a9cd375f0800000000000000
+      internalID: -760021356059126447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_11
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1276
+        width: 222
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ebd1aa782a63cf0800000000000000
+      internalID: -272852023850975654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_12
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1189
+        width: 160
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a52b37c61346a60800000000000000
+      internalID: 7666306807558724124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_13
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1280
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58098b477becb78a0800000000000000
+      internalID: -6306219565869657979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_14
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 972
+        width: 195
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ba07a09fd74a850800000000000000
+      internalID: 6387368680093690733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_15
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 950
+        width: 293
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6dbb9a5757bec00800000000000000
+      internalID: 930966896201422513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_16
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 1087
+        width: 188
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05818266a5aa403b0800000000000000
+      internalID: -5547121535775926192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_17
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1211
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9291cfc495998afc0800000000000000
+      internalID: -3483365702948349655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_18
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1129
+        width: 243
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa40ea6e31d8a450800000000000000
+      internalID: 6100355761284598440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_19
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 977
+        width: 177
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb905f4218e4ee90800000000000000
+      internalID: -6997212755689169971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_20
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1063
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a1d432ef64231a0800000000000000
+      internalID: -6831319627439728006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_21
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1003
+        width: 219
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773c9d9189a5032f0800000000000000
+      internalID: -995195908333649033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_22
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 837
+        width: 114
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe74c7e4ce4ff8130800000000000000
+      internalID: 3571342325294319599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_23
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1040
+        width: 145
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec6aa04ff35aa440800000000000000
+      internalID: 4947859496386587883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_24
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1043
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560d833384909d7f0800000000000000
+      internalID: -587428070693482395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_25
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 904
+        width: 381
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce0f150806d37e90800000000000000
+      internalID: -7029039263461208384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_26
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 707
+        width: 151
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dfeac89750ca9f0800000000000000
+      internalID: -455983442661802622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_27
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 915
+        width: 130
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850e65a2144a22510800000000000000
+      internalID: 1522960223794815064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_28
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 879
+        width: 112
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34a94a429b36afd0800000000000000
+      internalID: -2331110257620048833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_29
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 992
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ccd3384b48c41a0800000000000000
+      internalID: -6823933424542299034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_30
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1004
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204426e23007043f0800000000000000
+      internalID: -918611165018176510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_31
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 943
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daaf03c1b5e98a760800000000000000
+      internalID: 7469394096146152109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_32
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 734
+        width: 153
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81f31bfa68362ec0800000000000000
+      internalID: -3592121620651314806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_33
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 847
+        width: 202
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8b964351d6d7c20800000000000000
+      internalID: 3205838447598745809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_34
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 892
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33751ddff17c30fd0800000000000000
+      internalID: -2376837238105221325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_35
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 912
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba208a8acd013c30800000000000000
+      internalID: 4337263079692708532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_36
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 789
+        width: 127
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26c847ab97e22d50800000000000000
+      internalID: 6711181050447971882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_37
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 769
+        width: 124
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb60417cb3df5a0f0800000000000000
+      internalID: -1106199700264712513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_38
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 859
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977599e8f01c05a20800000000000000
+      internalID: 3049149220290910073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_39
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 745
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4695e758db84eb0800000000000000
+      internalID: -4735326627131988800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_40
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 745
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c162cece06e54c3b0800000000000000
+      internalID: -5493161875100391908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_41
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 730
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdf4b97fc77e0440800000000000000
+      internalID: 4903988777236889037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_42
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 710
+        width: 48
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0776c8fac4233f0800000000000000
+      internalID: -922590656798953263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_43
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 654
+        width: 60
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79af2f896a64963b0800000000000000
+      internalID: -5518802187021256041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_44
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 547
+        width: 349
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45df286543b465d90800000000000000
+      internalID: -7109412273595941548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_45
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 712
+        width: 251
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8bd6bad18f13d30800000000000000
+      internalID: 4409578316486260955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_46
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 687
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb1bb59cda58d490800000000000000
+      internalID: -7721321657675342906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_47
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 593
+        width: 133
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8108fc6329434f10800000000000000
+      internalID: 2252724655116255627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_48
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 560
+        width: 249
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbe01fb32f7be320800000000000000
+      internalID: 2588302202360622029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_49
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 536
+        width: 244
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30866603846a0e160800000000000000
+      internalID: 7052819845442070531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_50
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 414
+        width: 391
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3d2053548aae270800000000000000
+      internalID: 8280615880069665723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_51
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 438
+        width: 387
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f0d6cf7781cadd0800000000000000
+      internalID: -2473575191718064345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_52
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 395
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13823653541dd8980800000000000000
+      internalID: -8534935623618582479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_53
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 288
+        width: 244
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91816d38b6c0832d0800000000000000
+      internalID: -3298873071136008167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_54
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 376
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94041fbc978debd0800000000000000
+      internalID: -2599272302632500065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_55
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 218
+        width: 211
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9370f24de01a31580800000000000000
+      internalID: -8857558957046167751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clothesfloor_56
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 174
+        width: 177
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda75fbb3a1dc6df0800000000000000
+      internalID: -185542983465731365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clothesfloor_0: 76622189844780178
+      clothesfloor_1: 1178032818304772879
+      clothesfloor_10: -760021356059126447
+      clothesfloor_11: -272852023850975654
+      clothesfloor_12: 7666306807558724124
+      clothesfloor_13: -6306219565869657979
+      clothesfloor_14: 6387368680093690733
+      clothesfloor_15: 930966896201422513
+      clothesfloor_16: -5547121535775926192
+      clothesfloor_17: -3483365702948349655
+      clothesfloor_18: 6100355761284598440
+      clothesfloor_19: -6997212755689169971
+      clothesfloor_2: -9030966728322428716
+      clothesfloor_20: -6831319627439728006
+      clothesfloor_21: -995195908333649033
+      clothesfloor_22: 3571342325294319599
+      clothesfloor_23: 4947859496386587883
+      clothesfloor_24: -587428070693482395
+      clothesfloor_25: -7029039263461208384
+      clothesfloor_26: -455983442661802622
+      clothesfloor_27: 1522960223794815064
+      clothesfloor_28: -2331110257620048833
+      clothesfloor_29: -6823933424542299034
+      clothesfloor_3: 2334976955886881781
+      clothesfloor_30: -918611165018176510
+      clothesfloor_31: 7469394096146152109
+      clothesfloor_32: -3592121620651314806
+      clothesfloor_33: 3205838447598745809
+      clothesfloor_34: -2376837238105221325
+      clothesfloor_35: 4337263079692708532
+      clothesfloor_36: 6711181050447971882
+      clothesfloor_37: -1106199700264712513
+      clothesfloor_38: 3049149220290910073
+      clothesfloor_39: -4735326627131988800
+      clothesfloor_4: -1224056393465938598
+      clothesfloor_40: -5493161875100391908
+      clothesfloor_41: 4903988777236889037
+      clothesfloor_42: -922590656798953263
+      clothesfloor_43: -5518802187021256041
+      clothesfloor_44: -7109412273595941548
+      clothesfloor_45: 4409578316486260955
+      clothesfloor_46: -7721321657675342906
+      clothesfloor_47: 2252724655116255627
+      clothesfloor_48: 2588302202360622029
+      clothesfloor_49: 7052819845442070531
+      clothesfloor_5: 2213536811152209050
+      clothesfloor_50: 8280615880069665723
+      clothesfloor_51: -2473575191718064345
+      clothesfloor_52: -8534935623618582479
+      clothesfloor_53: -3298873071136008167
+      clothesfloor_54: -2599272302632500065
+      clothesfloor_55: -8857558957046167751
+      clothesfloor_56: -185542983465731365
+      clothesfloor_6: 1248650083790001514
+      clothesfloor_7: 4730125949404621461
+      clothesfloor_8: 2142627587851189859
+      clothesfloor_9: 1655451506763497039
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
