@@ -2,10 +2,10 @@
 Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) Core' Language: 'es' Physical Memory: 8112 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-May" at "2026-08-31T14:18:26.1421424Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-08-31T05:15:05Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-May" at "2026-08-31T05:15:05.0927455Z"
+Date: 2026-08-31T14:18:26Z
 
 COMMAND LINE ARGUMENTS:
 F:\Unity\6000.5.8f1\Editor\Unity.exe
@@ -19,9 +19,9 @@ F:/unity/ss/soul-seeker
 -logFile
 Logs/AssetImportWorkerHW1.log
 -srvPort
-64247
+62865
 -parentPid
-28652
+31168
 -analyticsCloudUserId
 4674136978559
 -analyticsCloudProjectId
@@ -84,12 +84,12 @@ F:/unity/ss/soul-seeker
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [28948]  Target information:
+Player connection [23940]  Target information:
 
-Player connection [28948]  * "[IP] 192.168.1.18 [Port] 0 [Flags] 2 [Guid] 3303835221 [EditorId] 3303835221 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DM6U2RV0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23940]  * "[IP] 10.252.111.75 [Port] 0 [Flags] 2 [Guid] 3878780841 [EditorId] 3878780841 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DM6U2RV0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [28948] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [28948] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23940] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23940] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -101,7 +101,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 489.19 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 667.50 ms, found 5 plugins.
 Initialize engine version: 6000.5.8f1 (5cb7df797b7d)
 [Subsystems] Discovering subsystems at path F:/Unity/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/unity/ss/soul-seeker/Assets
@@ -120,30 +120,30 @@ Mono path[0] = 'F:/Unity/6000.5.8f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/6000.5.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'F:/Unity/6000.5.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/6000.5.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 CodeReloadManager initialized
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-May"
 [Licensing::IpcConnector] LicenseClient-May channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-May-6000.5.8" at "2026-08-31T05:15:13.3331065Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 32188, path: "F:/unity/6000.5.8f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-May-6000.5.8" at "2026-08-31T14:18:39.0376068Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 32612, path: "F:/unity/6000.5.8f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              7647bda58f034a938f800f6e8c05b55a
-  Correlation Id:          8517fdd44c1ad7c0fd262c8b654b709b
-  External correlation Id: 4933338255702854354
+  Session Id:              13e45e6d695e4fa181b567a5a8017405
+  Correlation Id:          9433dc26e3b9ab2a1817186edfacf84a
+  External correlation Id: 1338420124756337127
   Machine Id:              WhHCL6WshhAV/u+JZtnMQZrMpJU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-May-6000.5.8" (connect: 0.00s, validation: 0.02s, handshake: 0.01s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-May-6000.5.8-notifications" at "2026-08-31T05:15:13.3619113Z"
-[Licensing::Module] Licensing Background thread has ended after 8.27s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-May-6000.5.8" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-May-6000.5.8-notifications" at "2026-08-31T14:18:39.0666182Z"
+[Licensing::Module] Licensing Background thread has ended after 12.92s
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/6000.5.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Unity/6000.5.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.754771 seconds.
+Registered in 0.431407 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -152,23 +152,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  6.434 seconds
-Domain Reload Profiling: 8912ms
-	BeginReloadAssembly (301ms)
+- Finished resetting the current domain, in  3.459 seconds
+Domain Reload Profiling: 5070ms
+	BeginReloadAssembly (328ms)
 	RebuildCommonClasses (6ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (863ms)
-	LoadAllAssembliesAndSetupDomain (1274ms)
-		LoadAssemblies (307ms)
-		AnalyzeDomain (1141ms)
-			TypeCache.Refresh (1139ms)
-				TypeCache.ScanAssembly (1117ms)
-	FinalizeReload (6436ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (567ms)
+	LoadAllAssembliesAndSetupDomain (674ms)
+		LoadAssemblies (340ms)
+		AnalyzeDomain (476ms)
+			TypeCache.Refresh (473ms)
+				TypeCache.ScanAssembly (441ms)
+	FinalizeReload (3465ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (122ms)
-			ProcessInitializeOnLoadAttributes (300ms)
-			ProcessInitializeOnLoadMethodAttributes (5909ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (189ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (2900ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -176,210 +176,297 @@ Initializing Unity extensions:
   Product: Unity Student
   Type: Assigned
   Expiration: 2026-12-08T15:48:24Z
-Curl error 3: URL rejected: Malformed input to a URL function
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-Refreshing native plugins compatible for Editor in 54.04 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 50.89 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 2.85 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 4.53 ms, found 5 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.383 seconds
-Domain Reload Profiling: 9318ms
-	BeginReloadAssembly (377ms)
-		DisableScriptedObjects (18ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (84ms)
-	LoadAllAssembliesAndSetupDomain (4438ms)
-		LoadAssemblies (3732ms)
-		AnalyzeDomain (564ms)
-			TypeCache.Refresh (401ms)
-				TypeCache.ScanAssembly (371ms)
-			BuildScriptInfoCaches (152ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (4385ms)
+- Finished resetting the current domain, in  4.531 seconds
+Domain Reload Profiling: 8989ms
+	BeginReloadAssembly (760ms)
+		DisableScriptedObjects (36ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (139ms)
+	LoadAllAssembliesAndSetupDomain (3501ms)
+		LoadAssemblies (2229ms)
+		AnalyzeDomain (944ms)
+			TypeCache.Refresh (663ms)
+				TypeCache.ScanAssembly (614ms)
+			BuildScriptInfoCaches (259ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (4532ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (1949ms)
-			ProcessInitializeOnLoadMethodAttributes (1447ms)
-			AfterProcessingInitializeOnLoad (25ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (1170ms)
+			ProcessInitializeOnLoadMethodAttributes (1733ms)
+			AfterProcessingInitializeOnLoad (62ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 AcceleratorClientConnectionCallback - disconnected - :0
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 4.09 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 5 plugins.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 9214 unused Assets / (7.7 MB). Loaded Objects now: 10217.
-Memory consumption went from 386.7 MB to 379.0 MB.
-Total: 25.311100 ms (FindLiveObjects: 1.722600 ms CreateObjectMapping: 6.332300 ms MarkObjects: 9.147300 ms  DeleteObjects: 8.105700 ms)
+Unloading 9217 unused Assets / (7.7 MB). Loaded Objects now: 10239.
+Memory consumption went from 387.2 MB to 379.5 MB.
+Total: 30.863600 ms (FindLiveObjects: 3.057500 ms CreateObjectMapping: 7.240500 ms MarkObjects: 13.279200 ms  DeleteObjects: 7.282800 ms)
 
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-31T14:19:30.2607453Z
+  Time since last request: 522666.71500700002071 seconds.
+  importAddress: GUID: fd747357dcece33469a0f4b822f822f7 - Path: Assets/Scripts/objects/Bookshelf.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fd747357dcece33469a0f4b822f822f7 - Path: Assets/Scripts/objects/Bookshelf.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fd747357dcece33469a0f4b822f822f7' -> (Import Result ID: 'bd9c6fb407672dd47fbf85ef0f60bb9b') in 0.137 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8bbbe2d96795584735a54c1676453eed DependenciesID=2afe45e22af781912c5f35c95b633216 StaticDependenciesID=2d7dd67a3c662d162212a157b3c9e8f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+Curl error 23: Failure writing output to destination, passed 293 returned 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 3.53 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.74 ms, found 5 plugins.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10217.
-Memory consumption went from 376.8 MB to 374.2 MB.
-Total: 10.328700 ms (FindLiveObjects: 0.831800 ms CreateObjectMapping: 1.509500 ms MarkObjects: 7.295400 ms  DeleteObjects: 0.691000 ms)
+Unloading 9195 unused Assets / (7.4 MB). Loaded Objects now: 10242.
+Memory consumption went from 385.4 MB to 377.9 MB.
+Total: 61.309200 ms (FindLiveObjects: 3.825300 ms CreateObjectMapping: 4.197200 ms MarkObjects: 46.459800 ms  DeleteObjects: 6.825400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 5.82 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.20 ms, found 5 plugins.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10217.
-Memory consumption went from 378.6 MB to 376.0 MB.
-Total: 16.646700 ms (FindLiveObjects: 1.343800 ms CreateObjectMapping: 2.427700 ms MarkObjects: 12.152800 ms  DeleteObjects: 0.721100 ms)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10242.
+Memory consumption went from 382.2 MB to 379.6 MB.
+Total: 15.460700 ms (FindLiveObjects: 0.697300 ms CreateObjectMapping: 1.962900 ms MarkObjects: 11.936500 ms  DeleteObjects: 0.862200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.IOProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.ApplicationProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetOperationManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.DownloadManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.ImportedAssetsTracker is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetsSdkProvider is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseSdkService is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseSdkService or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetDataManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Upload.Editor Unity.AssetManager.Upload.Editor.UploadManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.CachePathHelper is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetManagerSettingsManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.CacheEvictionManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.ThumbnailDownloader is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.UnityConnectProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.MessageManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetDataCacheManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetDataCacheSyncService is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.ProjectIconDownloader is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetDatabaseProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.PersistenceManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.FileUtility is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.EditorUtilityProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetImportResolver is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetImporter is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.UIPreferences is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.DragAndDropProjectBrowserProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.SavedAssetSearchFilterManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.PackageVersionService is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.InlineEditService is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.StateManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.PageManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.LinksProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.PopupManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.DialogManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.ContextMenuBuilder is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.ProjectWindowProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 43.02 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.401 seconds
+Domain Reload Profiling: 13828ms
+	BeginReloadAssembly (1836ms)
+		DisableScriptedObjects (278ms)
+		CreateAndSetChildDomain (553ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (221ms)
+	LoadAllAssembliesAndSetupDomain (10322ms)
+		LoadAssemblies (9698ms)
+		AnalyzeDomain (590ms)
+			TypeCache.Refresh (58ms)
+			BuildScriptInfoCaches (504ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1403ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (611ms)
+			ProcessInitializeOnLoadMethodAttributes (192ms)
+			AfterProcessingInitializeOnLoad (47ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 3.48 ms, found 5 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9216 unused Assets / (6.5 MB). Loaded Objects now: 10246.
+Memory consumption went from 383.3 MB to 376.8 MB.
+Total: 23.772900 ms (FindLiveObjects: 1.875800 ms CreateObjectMapping: 4.317400 ms MarkObjects: 11.836600 ms  DeleteObjects: 5.395900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-08-31T05:16:02.1912234Z
-  Time since last request: 490056.90929260000121 seconds.
-  importAddress: GUID: 56bdc10028f287d4d9f89a1ffc745c7e - Path: Assets/boss.prefab - Importer: PreviewImporter
-Importing 'GUID: 56bdc10028f287d4d9f89a1ffc745c7e - Path: Assets/boss.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 56bdc10028f287d4d9f89a1ffc745c7e' -> (Import Result ID: '719501406dd3ad97cb5933bfa6b20993') in 1.328 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e6619de5980022f190dbc93fe08c008 DependenciesID=983f53424a6bb8d740422cd704f9ecb7 StaticDependenciesID=a30748334f94f6fbbb137f801d3ee0b3 
+  Time of request: 2026-08-31T14:26:47.0004111Z
+  Time since last request: 436.57640029999999 seconds.
+  importAddress: GUID: a4568dba624878a46b70f6c6d5432983 - Path: Assets/Scripts/objects/PlayerInteractor.cs - Importer: PreviewImporter
+Importing 'GUID: a4568dba624878a46b70f6c6d5432983 - Path: Assets/Scripts/objects/PlayerInteractor.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a4568dba624878a46b70f6c6d5432983' -> (Import Result ID: '4a480995f0b26a21a19078acb9497d83') in 1.590 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=994fbf8cac369a5f5aa7ff94d9d25375 DependenciesID=92df8d730396e64019cd3ec037a7c9ad StaticDependenciesID=7ef22f962c13811c4c6defe88993b07d 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 5.44 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.03 ms, found 5 plugins.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10321.
-Memory consumption went from 387.7 MB to 385.1 MB.
-Total: 16.350100 ms (FindLiveObjects: 0.921700 ms CreateObjectMapping: 2.023600 ms MarkObjects: 12.345900 ms  DeleteObjects: 1.057500 ms)
+Unloading 9195 unused Assets / (3.7 MB). Loaded Objects now: 10246.
+Memory consumption went from 386.2 MB to 382.5 MB.
+Total: 328.792000 ms (FindLiveObjects: 9.764800 ms CreateObjectMapping: 4.117300 ms MarkObjects: 299.078800 ms  DeleteObjects: 15.516800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 6.52 ms, found 5 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.IOProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.ApplicationProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetOperationManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.DownloadManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.ImportedAssetsTracker is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetsSdkProvider is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseSdkService is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseSdkService or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetDataManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Upload.Editor Unity.AssetManager.Upload.Editor.UploadManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.CachePathHelper is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetManagerSettingsManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.CacheEvictionManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.ThumbnailDownloader is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.UnityConnectProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.MessageManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetDataCacheManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetDataCacheSyncService is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.ProjectIconDownloader is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetDatabaseProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.PersistenceManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.FileUtility is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.EditorUtilityProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetImportResolver is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.AssetImporter is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.UIPreferences is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.DragAndDropProjectBrowserProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.SavedAssetSearchFilterManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.PackageVersionService is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.InlineEditService is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.StateManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.PageManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.LinksProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.PopupManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.DialogManager is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.ContextMenuBuilder is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.ProjectWindowProxy is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+The type Unity.AssetManager.UI.Editor Unity.AssetManager.UI.Editor.ProjectWindowIconOverlay is being serialized by [SerializeReference], but its parent type Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 is missing the [Serializable] attribute. To suppress this warning add [Serializable] to Unity.AssetManager.Core.Editor Unity.AssetManager.Core.Editor.BaseService`1 or use [MakeSerializable].
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 49.60 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.120 seconds
+Domain Reload Profiling: 16727ms
+	BeginReloadAssembly (2919ms)
+		DisableScriptedObjects (481ms)
+		CreateAndSetChildDomain (1044ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (226ms)
+	LoadAllAssembliesAndSetupDomain (11413ms)
+		LoadAssemblies (10549ms)
+		AnalyzeDomain (759ms)
+			TypeCache.Refresh (66ms)
+			BuildScriptInfoCaches (665ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2122ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (299ms)
+			ProcessInitializeOnLoadAttributes (858ms)
+			ProcessInitializeOnLoadMethodAttributes (236ms)
+			AfterProcessingInitializeOnLoad (43ms)
+		AwakeInstancesAfterBackupRestoration (52ms)
+Refreshing native plugins compatible for Editor in 4.26 ms, found 5 plugins.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10321.
-Memory consumption went from 389.6 MB to 387.0 MB.
-Total: 23.698700 ms (FindLiveObjects: 0.936400 ms CreateObjectMapping: 2.300200 ms MarkObjects: 19.067600 ms  DeleteObjects: 1.392100 ms)
+Unloading 9216 unused Assets / (7.3 MB). Loaded Objects now: 10249.
+Memory consumption went from 389.2 MB to 381.9 MB.
+Total: 34.686300 ms (FindLiveObjects: 3.478800 ms CreateObjectMapping: 5.270800 ms MarkObjects: 15.742200 ms  DeleteObjects: 9.794700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-08-31T05:16:52.1903827Z
-  Time since last request: 48.636971 seconds.
-  importAddress: GUID: 3b56d3a50ce7ca44d87b8695d112e61e - Path: Assets/rug.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 3b56d3a50ce7ca44d87b8695d112e61e - Path: Assets/rug.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 3b56d3a50ce7ca44d87b8695d112e61e' -> (Import Result ID: '85c9b165aa193264e0b9af884dab2c04') in 0.207 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95dfaf2e21fe65caa8553dbd5fa66d1b DependenciesID=b672efe5adb146dcc5c4a75bd7beef79 StaticDependenciesID=9a7a737f9746942c9227674a6a7a4b55 
+  Time of request: 2026-08-31T14:51:30.8429273Z
+  Time since last request: 1482.1907025999999 seconds.
+  importAddress: GUID: a4568dba624878a46b70f6c6d5432983 - Path: Assets/Scripts/objects/PlayerInteractor.cs - Importer: PreviewImporter
+Importing 'GUID: a4568dba624878a46b70f6c6d5432983 - Path: Assets/Scripts/objects/PlayerInteractor.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a4568dba624878a46b70f6c6d5432983' -> (Import Result ID: '5583a028638ccab1c33f50c8bf8ad7a1') in 3.399 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=994fbf8cac369a5f5aa7ff94d9d25375 DependenciesID=9fcb19a359cdc5691826101b1e46188e StaticDependenciesID=ba79b2d79e9afecdcf595135f82a485e 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 4.21 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 3.13 ms, found 5 plugins.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10321.
-Memory consumption went from 393.4 MB to 390.8 MB.
-Total: 51.884200 ms (FindLiveObjects: 2.922200 ms CreateObjectMapping: 1.865700 ms MarkObjects: 46.252000 ms  DeleteObjects: 0.841800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-31T05:21:08.2879226Z
-  Time since last request: 255.8608787 seconds.
-  importAddress: GUID: a733e10b48e7f05428b901fe35bb0c6f - Path: Assets/Scenes/Scene1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: a733e10b48e7f05428b901fe35bb0c6f - Path: Assets/Scenes/Scene1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: a733e10b48e7f05428b901fe35bb0c6f' -> (Import Result ID: 'db0641d953f7f01020cfafc11152cb3a') in 0.167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=859bc118d74f15ec1fb32f672d7f97f1 DependenciesID=ad46dbabbd0eedb73050f4e471eaa1d4 StaticDependenciesID=45ccc6d8b9abcb7f34e8792b672c2b7f 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 4.34 ms, found 5 plugins.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10321.
-Memory consumption went from 391.6 MB to 389.0 MB.
-Total: 16.092000 ms (FindLiveObjects: 0.968600 ms CreateObjectMapping: 2.068800 ms MarkObjects: 12.389400 ms  DeleteObjects: 0.663000 ms)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10249.
+Memory consumption went from 378.0 MB to 375.3 MB.
+Total: 12.480600 ms (FindLiveObjects: 0.763300 ms CreateObjectMapping: 1.677400 ms MarkObjects: 9.420100 ms  DeleteObjects: 0.618200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 18.75 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 7.38 ms, found 5 plugins.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10321.
-Memory consumption went from 393.5 MB to 390.9 MB.
-Total: 287.158900 ms (FindLiveObjects: 25.489200 ms CreateObjectMapping: 2.368300 ms MarkObjects: 257.576000 ms  DeleteObjects: 1.381200 ms)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10249.
+Memory consumption went from 380.7 MB to 378.1 MB.
+Total: 317.878200 ms (FindLiveObjects: 9.665300 ms CreateObjectMapping: 2.690700 ms MarkObjects: 303.404800 ms  DeleteObjects: 2.113300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-31T05:26:40.7357154Z
-  Time since last request: 332.26774010000003 seconds.
-  importAddress: GUID: ef385a32101d9dc4aa4ce6680fe0fb73 - Path: Assets/Scenes/sprites/lvl1/momroom.prefab - Importer: PreviewImporter
-Importing 'GUID: ef385a32101d9dc4aa4ce6680fe0fb73 - Path: Assets/Scenes/sprites/lvl1/momroom.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: ef385a32101d9dc4aa4ce6680fe0fb73' -> (Import Result ID: '5e06683da40a01ff55c0f66c724f5285') in 0.668 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26a0aa1276c50147c9280cc01bee7e8c DependenciesID=7a9afeff4777cd8e1409496c6478d20f StaticDependenciesID=a69aa3e5551c3271a5ad6adc6a754336 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 10.51 ms, found 5 plugins.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10321.
-Memory consumption went from 389.7 MB to 387.1 MB.
-Total: 485.061600 ms (FindLiveObjects: 29.210900 ms CreateObjectMapping: 3.300200 ms MarkObjects: 451.124500 ms  DeleteObjects: 1.065500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-31T05:30:17.1040032Z
-  Time since last request: 215.68378340000001 seconds.
-  importAddress: GUID: bfd7e0489a9ba404593bb56ddce4c12e - Path: Assets/Scenes/sprites/lvl1/helenaRoom.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: bfd7e0489a9ba404593bb56ddce4c12e - Path: Assets/Scenes/sprites/lvl1/helenaRoom.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: bfd7e0489a9ba404593bb56ddce4c12e' -> (Import Result ID: 'e3798b5fc9170a5d98587fd156e40a38') in 0.202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8bd94dc35c16841a2f142dac2d22982c DependenciesID=3e07c70e1b11c48cb218b95ee5616918 StaticDependenciesID=cf095a6fe71af77f75a2c512d2086ca8 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 12.11 ms, found 5 plugins.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10321.
-Memory consumption went from 391.6 MB to 389.0 MB.
-Total: 529.332000 ms (FindLiveObjects: 28.113900 ms CreateObjectMapping: 3.422200 ms MarkObjects: 495.786000 ms  DeleteObjects: 2.004500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-AcceleratorClientConnectionCallback - disconnected - :0
-Refreshing native plugins compatible for Editor in 6.56 ms, found 5 plugins.
-Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 10321.
-Memory consumption went from 393.5 MB to 390.9 MB.
-Total: 379.092100 ms (FindLiveObjects: 13.096000 ms CreateObjectMapping: 2.288000 ms MarkObjects: 362.838200 ms  DeleteObjects: 0.864100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-31T05:42:29.0286337Z
-  Time since last request: 731.70652870000004 seconds.
-  importAddress: GUID: a733e10b48e7f05428b901fe35bb0c6f - Path: Assets/Scenes/Scene1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: a733e10b48e7f05428b901fe35bb0c6f - Path: Assets/Scenes/Scene1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: a733e10b48e7f05428b901fe35bb0c6f' -> (Import Result ID: 'a5016da65653d6b34b8ab09745b68910') in 0.256 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab9c0780ca31946d38c6c21000d258ff DependenciesID=b9599935a5dfb6e6fe9e74da95e9ee56 StaticDependenciesID=2b044601f285c4fa2d6ed1e0eed1ecdd 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Editor is closing down
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server
