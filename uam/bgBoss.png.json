@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "bgBoss.png",
+    "assetName": "bgBoss",
+    "assetId": "6a96e47f4c269b7c229b1466",
+    "datasetId": "b5bc8da8-bb3e-4322-9265-8f7342a0ba3d",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "ed3ad8cc-725c-4026-8514-6b17b2baaef1",
+    "sequenceNumber": 1,
+    "updated": "2026-09-01T14:43:21.3100000Z",
+    "timestamp": 1788140522,
+    "checksum": "b127bfd93c51451b8cf1f177fb52d1bd",
+    "metaFileChecksum": "1e980948c790ee88dd3244171a9c17ef",
+    "metaFileTimestamp": 1788141132,
+    "unityGUID": "a24a88cc5c6b50246be7dc144279cafb"
+}

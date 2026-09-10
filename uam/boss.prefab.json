@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "boss.prefab",
+    "assetName": "boss",
+    "assetId": "6a96e47f0b4bb0e9fc5c41b7",
+    "datasetId": "f1dbf170-ce3f-4188-8206-428038d8ff04",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "69711e79-95a2-4e25-8ab0-3e81474acaa1",
+    "sequenceNumber": 1,
+    "updated": "2026-09-01T14:43:21.2040000Z",
+    "timestamp": 1788153362,
+    "checksum": "10d058fcd46310bac128fdaf42e9034c",
+    "metaFileChecksum": "783b4c9ccae4b91a89efbed81bbeec7c",
+    "metaFileTimestamp": 1788153354,
+    "unityGUID": "56bdc10028f287d4d9f89a1ffc745c7e"
+}

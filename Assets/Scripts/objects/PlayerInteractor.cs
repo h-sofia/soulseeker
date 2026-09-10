@@ -41,7 +41,7 @@ public class PlayerInteractor : MonoBehaviour
                     if (currentInteractable != null) currentInteractable.HidePrompt();
 
                     currentInteractable = interactable;
-                    
+                    Debug.Log("found");
                     // Call your interface's ShowPrompt method!
                     currentInteractable.ShowPrompt();
                 }
