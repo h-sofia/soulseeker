@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class DialogueUI : MonoBehaviour
@@ -14,44 +15,50 @@ public class DialogueUI : MonoBehaviour
             dialogueText == null ||
             closeButton == null)
         {
-            Debug.LogError(
-                $"Missing DialogueUI reference on {name}. " +
-                $"Panel: {dialoguePanel != null}, " +
-                $"Text: {dialogueText != null}, " +
-                $"Button: {closeButton != null}",
-                this
-            );
-
+            Debug.LogError("DialogueUI has missing Inspector references.", this);
             enabled = false;
             return;
         }
 
-        dialoguePanel.SetActive(false);
         closeButton.onClick.AddListener(CloseDialogue);
+        dialoguePanel.SetActive(false);
+        Time.timeScale = 1f;
     }
 
-   public void ShowDialogue(string message)
-{
-    dialogueText.text = message;
-    dialoguePanel.SetActive(true);
-    Time.timeScale = 0f;
+    private void Update()
+    {
+        if (dialoguePanel.activeSelf &&
+            Keyboard.current != null &&
+            Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            CloseDialogue();
+        }
+    }
 
-    Debug.Log($"Dialogue opened. Panel active: {dialoguePanel.activeSelf}");
-}
-
+    public void ShowDialogue(string message)
+    {
         dialogueText.text = message;
         dialoguePanel.SetActive(true);
         Time.timeScale = 0f;
+
+        Debug.Log(
+            $"Dialogue opened. Panel active: {dialoguePanel.activeSelf}"
+        );
     }
 
     public void CloseDialogue()
     {
-        if (dialoguePanel == null)
+        dialoguePanel.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    private void OnDestroy()
+    {
+        if (closeButton != null)
         {
-            return;
+            closeButton.onClick.RemoveListener(CloseDialogue);
         }
 
-        dialoguePanel.SetActive(false);
         Time.timeScale = 1f;
     }
 }
