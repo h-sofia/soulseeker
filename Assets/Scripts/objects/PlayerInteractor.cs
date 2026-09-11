@@ -6,6 +6,7 @@ public class PlayerInteractor : MonoBehaviour
     [Header("Settings")]
     [SerializeField] private Transform interactSource;
     [SerializeField] private float interactRange = 3f;
+    [SerializeField] private float castRadius = 0.2f;
     [SerializeField] private LayerMask interactableLayer;
     [SerializeField] private DialogueUI dialogueUI;
 
@@ -32,53 +33,79 @@ public class PlayerInteractor : MonoBehaviour
     }
 
     private void CheckForInteractable()
+{
+    if (interactSource == null)
     {
-        if (interactSource == null)
+        Debug.LogError("Interact source is not assigned.", this);
+        return;
+    }
+
+    Collider2D[] colliders = Physics2D.OverlapCircleAll(
+        interactSource.position,
+        interactRange,
+        interactableLayer
+    );
+
+    IInteractable closestInteractable = null;
+    float closestDistance = float.MaxValue;
+
+    foreach (Collider2D collider in colliders)
+    {
+        if (collider == null ||
+            collider.transform.IsChildOf(transform))
         {
-            Debug.LogError("Interact source is not assigned.", this);
-            return;
+            continue;
         }
 
-        RaycastHit2D hit = Physics2D.Raycast(
+        IInteractable interactable =
+            collider.GetComponentInParent<IInteractable>();
+
+        if (interactable == null)
+        {
+            continue;
+        }
+
+        Vector2 closestPoint =
+            collider.ClosestPoint(interactSource.position);
+
+        float distance = Vector2.Distance(
             interactSource.position,
-            interactDirection.normalized,
-            interactRange,
-            interactableLayer
+            closestPoint
         );
 
-        if (hit.collider != null)
+        if (distance < closestDistance)
         {
-            IInteractable interactable =
-                hit.collider.GetComponentInParent<IInteractable>();
-
-            if (interactable != null)
-            {
-                if (interactable != currentInteractable)
-                {
-                    if (currentInteractable != null)
-                    {
-                        currentInteractable.HidePrompt();
-                    }
-
-                    currentInteractable = interactable;
-                    currentInteractable.ShowPrompt();
-
-                    Debug.Log(
-                        $"Interactable found: {hit.collider.name}, " +
-                        $"distance: {hit.distance}"
-                    );
-                }
-
-                return;
-            }
-        }
-
-        if (currentInteractable != null)
-        {
-            currentInteractable.HidePrompt();
-            currentInteractable = null;
+            closestInteractable = interactable;
+            closestDistance = distance;
         }
     }
+
+    if (closestInteractable != null)
+    {
+        if (closestInteractable != currentInteractable)
+        {
+            if (currentInteractable != null)
+            {
+                currentInteractable.HidePrompt();
+            }
+
+            currentInteractable = closestInteractable;
+            currentInteractable.ShowPrompt();
+
+            Debug.Log(
+                $"Interactable found. Distance: {closestDistance}"
+            );
+        }
+
+        return;
+    }
+
+    if (currentInteractable != null)
+    {
+        currentInteractable.HidePrompt();
+        currentInteractable = null;
+    }
+}
 
     private void OnDrawGizmosSelected()
     {
@@ -89,9 +116,13 @@ public class PlayerInteractor : MonoBehaviour
 
         Gizmos.color = Color.yellow;
 
-        Gizmos.DrawRay(
-            interactSource.position,
-            interactDirection.normalized * interactRange
+        Vector3 direction =
+            (Vector3)interactDirection.normalized * interactRange;
+
+        Gizmos.DrawRay(interactSource.position, direction);
+        Gizmos.DrawWireSphere(
+            interactSource.position + direction,
+            castRadius
         );
     }
 }

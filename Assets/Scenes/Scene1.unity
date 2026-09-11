@@ -689,7 +689,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 1.94}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -699,7 +699,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 16.94, y: 6.25}
+  m_Size: {x: 16, y: 2.52}
   m_EdgeRadius: 0
 --- !u!1 &372045778 stripped
 GameObject:
@@ -850,6 +850,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.63, y: 6.53}
   m_EdgeRadius: 0
+--- !u!4 &466100644 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7023190967507030745, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+  m_PrefabInstance: {fileID: 3837221843070550935}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &478988102
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,7 +985,7 @@ Transform:
   m_GameObject: {fileID: 478988102}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 58.47, y: -2.46, z: 0}
+  m_LocalPosition: {x: 115.81, y: -2.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1044,7 +1049,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.01, y: -0.81}
   m_Size: {x: 0.87, y: 3.3333333}
   m_Direction: 0
 --- !u!1 &519420028
@@ -1059,7 +1064,6 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1185,25 +1189,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 478988106}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4568dba624878a46b70f6c6d5432983, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractor
-  interactSource: {fileID: 3837221843070550936}
-  interactRange: 3
-  interactableLayer:
-    serializedVersion: 2
-    m_Bits: 256
-  dialogueUI: {fileID: 0}
-  interactDirection: {x: 0, y: 1}
 --- !u!1 &538511881 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5426069276210592443, guid: ef385a32101d9dc4aa4ce6680fe0fb73, type: 3}
@@ -1255,6 +1240,54 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 16.6, y: 11.4}
   m_EdgeRadius: 0
+--- !u!1 &554215851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 554215852}
+  - component: {fileID: 554215853}
+  m_Layer: 8
+  m_Name: ChimneyInteractable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &554215852
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554215851}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -22.672493, y: -8.6038, z: 0.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 466100644}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &554215853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554215851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a859edbff0c95674995c576de7598b2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChimneyInteractable
+  dialogue: 'The chimney is cold. There are pictures of... Helena
+
+    here?!'
+  dialogueUI: {fileID: 1180790884}
 --- !u!1 &554955490 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2364379740309443855, guid: c739226123d3f4640a1d61cea795e6b8, type: 3}
@@ -1850,6 +1883,85 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &767411136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 767411137}
+  - component: {fileID: 767411138}
+  m_Layer: 0
+  m_Name: BookshelfInteractable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &767411137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767411136}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.632183, y: -11.431613, z: 2.6190112}
+  m_LocalScale: {x: 1.5405947, y: 1.5405947, z: 1.5405947}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1781254003}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &767411138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767411136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd747357dcece33469a0f4b822f822f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BookshelfInteractable
+  dialogue: 'Hm...Helena liked some of these, now that I''m
+
+    looking at it.'
+  dialogueUI: {fileID: 1180790884}
+--- !u!1 &868209616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 868209617}
+  m_Layer: 8
+  m_Name: interactSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &868209617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868209616}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.15, y: -0.77, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 915293153}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &869060142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1923,7 +2035,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.08, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1933,7 +2045,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 12.86, y: 5.63}
+  m_Size: {x: 13, y: 3.11}
   m_EdgeRadius: 0
 --- !u!1 &915293152
 GameObject:
@@ -1945,7 +2057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 915293153}
   - component: {fileID: 915293154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerInteractor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1961,10 +2073,11 @@ Transform:
   m_GameObject: {fileID: 915293152}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.4353867, y: 2.25985, z: 0}
+  m_LocalPosition: {x: -0.25, y: -2.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 868209617}
   m_Father: {fileID: 478988106}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &915293154
@@ -1979,12 +2092,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4568dba624878a46b70f6c6d5432983, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractor
-  interactSource: {fileID: 519420032}
+  interactSource: {fileID: 868209617}
   interactRange: 3
+  castRadius: 0.2
   interactableLayer:
     serializedVersion: 2
     m_Bits: 256
-  dialogueUI: {fileID: 0}
+  dialogueUI: {fileID: 1180790884}
   interactDirection: {x: 0, y: 1}
 --- !u!1 &947701442 stripped
 GameObject:
@@ -2602,7 +2716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -243, y: 87.8}
+  m_AnchoredPosition: {x: -395, y: 87.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1177286628
@@ -5347,7 +5461,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.09, y: 2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5357,7 +5471,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 10.83, y: 5.78}
+  m_Size: {x: 10.14, y: 1.56}
   m_EdgeRadius: 0
 --- !u!1 &1567461837 stripped
 GameObject:
@@ -5377,7 +5491,7 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 320
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -5394,11 +5508,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.28, y: -0.4}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5408,8 +5522,27 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 8.69, y: 5.38}
+  m_Size: {x: 5.67, y: 2.54}
   m_EdgeRadius: 0
+--- !u!4 &1567461841 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4108853063047238281, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+  m_PrefabInstance: {fileID: 3837221843070550935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1567461844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567461837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc7530e5a790b7148b5906a753cc1e62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlantPotInteractable
+  dialogue: It's green. Who the hell is watering this?
+  dialogueUI: {fileID: 1180790884}
 --- !u!1 &1610677164
 GameObject:
   m_ObjectHideFlags: 0
@@ -5773,7 +5906,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 12.86, y: 5.63}
+  m_Size: {x: 12.3, y: 2.2}
   m_EdgeRadius: 0
 --- !u!114 &1781254002
 MonoBehaviour:
@@ -5789,6 +5922,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BookshelfInteractable
   dialogue: Huh... Helena liked some of these, now that I'm looking at it...
   dialogueUI: {fileID: 1180790884}
+--- !u!4 &1781254003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2760951167899352527, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+  m_PrefabInstance: {fileID: 3837221843070550935}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1845967178
 GameObject:
   m_ObjectHideFlags: 0
@@ -5964,7 +6102,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 815.1, y: 68.7}
+  m_AnchoredPosition: {x: 938.7, y: 68.7}
   m_SizeDelta: {x: 115.3, y: 30.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1879403405
@@ -6088,7 +6226,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.08, y: 1.65}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6098,7 +6236,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 19.32566, y: 5.68}
+  m_Size: {x: 17.1, y: 2.55}
   m_EdgeRadius: 0
 --- !u!1 &1964836097
 GameObject:
@@ -6169,7 +6307,7 @@ Transform:
   m_GameObject: {fileID: 1964836097}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 58.37, y: -1.15998, z: 0}
+  m_LocalPosition: {x: 116.06, y: -1.15998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6314,6 +6452,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2086336220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086336221}
+  - component: {fileID: 2086336222}
+  m_Layer: 0
+  m_Name: PlantPotInteractable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2086336221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086336220}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.30907, y: -6.8424006, z: 5.233407}
+  m_LocalScale: {x: 3.0631592, y: 2.8953843, z: 2.0933628}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1567461841}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2086336222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086336220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc7530e5a790b7148b5906a753cc1e62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlantPotInteractable
+  dialogue: The plant looks healthy. Someone must be taking care of it.
+  dialogueUI: {fileID: 1180790884}
 --- !u!1 &2116525260
 GameObject:
   m_ObjectHideFlags: 0
@@ -7263,6 +7447,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 59876929147466596, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2576435151065789806, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5387979
@@ -7286,6 +7474,10 @@ PrefabInstance:
     - target: {fileID: 2583276160868201737, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3328652639312053612, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.42
       objectReference: {fileID: 0}
     - target: {fileID: 4108853063047238281, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       propertyPath: m_LocalScale.x
@@ -7359,6 +7551,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.14
       objectReference: {fileID: 0}
+    - target: {fileID: 5376269080491208167, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5491552922149726632, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.60402
@@ -7409,6 +7605,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3328652639312053612, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2013981202}
+    - targetCorrespondingSourceObject: {fileID: 2760951167899352527, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 767411137}
+    - targetCorrespondingSourceObject: {fileID: 7023190967507030745, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 554215852}
+    - targetCorrespondingSourceObject: {fileID: 4108853063047238281, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2086336221}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6114880885948032285, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       insertIndex: -1
@@ -7452,6 +7657,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 59876929147466596, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1567461840}
+    - targetCorrespondingSourceObject: {fileID: 59876929147466596, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1567461844}
     - targetCorrespondingSourceObject: {fileID: 495359269143639145, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1919685380}
