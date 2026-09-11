@@ -1,0 +1,58 @@
+{
+    "version": 1,
+    "name": "ControlsFight",
+    "maps": [
+        {
+            "name": "PlayerFight",
+            "id": "9aac3250-ffaf-4259-b60b-6ef9da6fcc1e",
+            "actions": [
+                {
+                    "name": "MoveFight",
+                    "type": "Value",
+                    "id": "ed4c8cea-9503-43a5-993f-f441660fbe49",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "AD",
+                    "id": "ead57307-19da-4ea8-bb0b-17a7f6d5a5e6",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveFight",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "3122709f-80ac-41b5-b408-d62b0cb8674d",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveFight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "d3bd0170-752f-4a76-8d93-a28e24e538c8",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveFight",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
