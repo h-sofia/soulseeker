@@ -7,7 +7,7 @@ public class PlayerInteractor : MonoBehaviour
     [SerializeField] private Transform interactSource;
     [SerializeField] private float interactRange = 3f;
     [SerializeField] private LayerMask interactableLayer;
-    
+    [SerializeField] private DialogueUI dialogueUI;
 
     [Header("2D Direction")]
     [SerializeField] private Vector2 interactDirection = Vector2.up;
@@ -15,16 +15,21 @@ public class PlayerInteractor : MonoBehaviour
     private IInteractable currentInteractable;
 
     private void Update()
-{
-    CheckForInteractable();
-
-    if (currentInteractable != null &&
-        Keyboard.current != null &&
-        Keyboard.current.eKey.wasPressedThisFrame)
     {
-        currentInteractable.Interact();
+        if (dialogueUI != null && dialogueUI.IsOpen)
+        {
+            return;
+        }
+
+        CheckForInteractable();
+
+        if (currentInteractable != null &&
+            Keyboard.current != null &&
+            Keyboard.current.eKey.wasPressedThisFrame)
+        {
+            currentInteractable.Interact();
+        }
     }
-}
 
     private void CheckForInteractable()
     {
@@ -34,10 +39,8 @@ public class PlayerInteractor : MonoBehaviour
             return;
         }
 
-        Vector2 origin = interactSource.position;
-
         RaycastHit2D hit = Physics2D.Raycast(
-            origin,
+            interactSource.position,
             interactDirection.normalized,
             interactRange,
             interactableLayer
@@ -59,6 +62,11 @@ public class PlayerInteractor : MonoBehaviour
 
                     currentInteractable = interactable;
                     currentInteractable.ShowPrompt();
+
+                    Debug.Log(
+                        $"Interactable found: {hit.collider.name}, " +
+                        $"distance: {hit.distance}"
+                    );
                 }
 
                 return;

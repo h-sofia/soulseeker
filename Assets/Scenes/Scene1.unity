@@ -1202,6 +1202,7 @@ MonoBehaviour:
   interactableLayer:
     serializedVersion: 2
     m_Bits: 256
+  dialogueUI: {fileID: 0}
   interactDirection: {x: 0, y: 1}
 --- !u!1 &538511881 stripped
 GameObject:
@@ -1982,7 +1983,8 @@ MonoBehaviour:
   interactRange: 3
   interactableLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
+  dialogueUI: {fileID: 0}
   interactDirection: {x: 0, y: 1}
 --- !u!1 &947701442 stripped
 GameObject:
@@ -5757,7 +5759,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -5773,6 +5775,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 12.86, y: 5.63}
   m_EdgeRadius: 0
+--- !u!114 &1781254002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781253996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd747357dcece33469a0f4b822f822f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BookshelfInteractable
+  dialogue: Huh... Helena liked some of these, now that I'm looking at it...
+  dialogueUI: {fileID: 1180790884}
 --- !u!1 &1845967178
 GameObject:
   m_ObjectHideFlags: 0
@@ -7269,7 +7285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2583276160868201737, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4108853063047238281, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       propertyPath: m_LocalScale.x
@@ -7418,6 +7434,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2583276160868201737, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1781253999}
+    - targetCorrespondingSourceObject: {fileID: 2583276160868201737, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1781254002}
     - targetCorrespondingSourceObject: {fileID: 5376269080491208167, guid: ffffb2710ad30a44bbd497daf020a522, type: 3}
       insertIndex: -1
       addedObject: {fileID: 466100643}
@@ -7454,7 +7473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd747357dcece33469a0f4b822f822f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bookshelf
-  dialogue: The bookshelf is filled with old, dusty books.
+  dialogue: All these dusty old books... yuck..!
   dialogueUI: {fileID: 1180790884}
 --- !u!50 &3837221843070550939
 Rigidbody2D:

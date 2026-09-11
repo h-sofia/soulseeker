@@ -61,4 +61,12 @@ public class DialogueUI : MonoBehaviour
 
         Time.timeScale = 1f;
     }
+    public bool IsOpen
+{
+    get
+    {
+        return dialoguePanel != null &&
+               dialoguePanel.activeSelf;
+    }
+}
 }
