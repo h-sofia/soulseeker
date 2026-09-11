@@ -30,14 +30,14 @@ public class DialogueUI : MonoBehaviour
         closeButton.onClick.AddListener(CloseDialogue);
     }
 
-    public void ShowDialogue(string message)
-    {
-        if (dialoguePanel == null ||
-            dialogueText == null)
-        {
-            Debug.LogError("Panel or text is missing from DialogueUI.", this);
-            return;
-        }
+   public void ShowDialogue(string message)
+{
+    dialogueText.text = message;
+    dialoguePanel.SetActive(true);
+    Time.timeScale = 0f;
+
+    Debug.Log($"Dialogue opened. Panel active: {dialoguePanel.activeSelf}");
+}
 
         dialogueText.text = message;
         dialoguePanel.SetActive(true);
