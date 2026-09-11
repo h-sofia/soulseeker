@@ -1,40 +1,37 @@
 using UnityEngine;
 
-public class Bookshelf : MonoBehaviour, IInteractable
+public class BookshelfInteractable : MonoBehaviour, IInteractable
 {
-    [Header("Dialogue Content")]
-    [SerializeField] private string objectName = "Bookshelf";
-    [TextArea(3, 5)]
-    [SerializeField] private string[] dialogueLines;
+    [Header("Dialogue")]
+    [TextArea(3, 8)]
+    [SerializeField] private string dialogue =
+        "The bookshelf is filled with old, dusty books.";
 
-    [Header("UI Prompt")]
-    [SerializeField] private GameObject promptPrefab;
-    [SerializeField] private Vector3 promptOffset = new Vector3(0, 1.2f, 0);
-
-    private GameObject _spawnedPrompt;
-
-    private void Start()
-    {
-        if (promptPrefab != null)
-        {
-            _spawnedPrompt = Instantiate(promptPrefab, transform.position + promptOffset, Quaternion.identity, transform);
-            _spawnedPrompt.SetActive(false);
-        }
-    }
+    [SerializeField] private DialogueUI dialogueUI;
 
     public void Interact()
     {
-        HidePrompt(); 
-        DialogueManager.Instance.StartDialogue(objectName, dialogueLines);
+        if (dialogueUI == null)
+        {
+            Debug.LogError(
+                $"DialogueUI is not assigned on {gameObject.name}.",
+                this
+            );
+
+            return;
+        }
+
+        dialogueUI.ShowDialogue(dialogue);
     }
 
     public void ShowPrompt()
     {
-        if (_spawnedPrompt != null) _spawnedPrompt.SetActive(true);
+        Debug.Log("Press E to read the bookshelf.");
+        // Enable your interaction prompt UI here.
     }
 
     public void HidePrompt()
     {
-        if (_spawnedPrompt != null) _spawnedPrompt.SetActive(false);
+        // Disable your interaction prompt UI here.
     }
 }
