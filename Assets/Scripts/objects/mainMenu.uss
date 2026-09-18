@@ -1,5 +1,3 @@
-/* MainMenu.uss */
-
 .screen {
     width: 100%;
     height: 100%;
@@ -166,4 +164,8 @@
     margin-bottom: 16px;
     color: rgb(145, 147, 164);
     font-size: 13px;
+}
+
+.hidden {
+    display: none;
 }

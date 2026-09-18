@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/objects/mainMenu.uss?fileID=7433441132597879392&amp;guid=261f5dff619857e4bafbd843d8b60847&amp;type=3#mainMenu"/>
+    <ui:VisualElement name="level-select-panel" style="flex-grow: 1;">
+        <ui:Image name="Image" style="height: 1079px; width: 1798px; top: -298px; background-image: url(&quot;project://database/Assets/level%20screen.png?fileID=2800000&amp;guid=d7662a0dda657c449aaab75158c9b99f&amp;type=3#level screen&quot;); -unity-text-auto-size: none; min-width: -60px; margin-bottom: -305px; margin-top: 296px;">
+            <ui:Button text="Level 1" name="level-1-button" style="height: 64px; width: 216px; background-color: rgb(236, 176, 190); -unity-font-style: bold-and-italic; -unity-text-auto-size: best-fit 10px 100px; min-width: 0%; left: 13%; top: 20%;"/>
+            <ui:Button text="Level 2" name="level-2-button" style="width: 216px; height: 64px; left: 72%; top: 40%; -unity-text-auto-size: best-fit 10px 100px; background-color: rgb(236, 176, 190); -unity-font-style: bold-and-italic;"/>
+            <ui:Button text="???" selectable="true" style="width: 216px; height: 64px; left: 35%; top: 70%; -unity-text-auto-size: best-fit 10px 100px; background-color: rgb(174, 144, 151); -unity-font-style: bold-and-italic;"/>
+            <ui:Button text="Back" name="level-select-back-button" style="width: 166px; bottom: -2%; left: 1%; -unity-text-auto-size: best-fit 10px 100px; background-color: rgb(168, 73, 84); border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; height: 82px; top: -151px;"/>
+        </ui:Image>
+    </ui:VisualElement>
+</ui:UXML>
