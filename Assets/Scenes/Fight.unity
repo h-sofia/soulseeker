@@ -119,6 +119,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &23766677
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5569983966614433641, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 960
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569983966614433641, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 540
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569983966614433641, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569983966614433641, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569983966614433641, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569983966614433641, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569983966614433641, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569983966614433641, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569983966614433641, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5569983966614433641, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8501492341289919410, guid: d0947f420e03d344cb33c586103559f7, type: 3}
+      propertyPath: m_Name
+      value: LevelLoader
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d0947f420e03d344cb33c586103559f7, type: 3}
 --- !u!1001 &174328299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -368,7 +425,7 @@ MonoBehaviour:
   m_AirControl: 0
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   m_GroundCheck: {fileID: 573290365}
   m_CeilingCheck: {fileID: 2041704343}
   m_CrouchDisableCollider: {fileID: 0}
@@ -393,6 +450,7 @@ MonoBehaviour:
   controller: {fileID: 391128877}
   runSpeed: 40
   firePoint: {fileID: 1686568184}
+  health: 100
 --- !u!50 &391128879
 Rigidbody2D:
   serializedVersion: 5
@@ -962,6 +1020,7 @@ GameObject:
   - component: {fileID: 1541769816}
   - component: {fileID: 1541769815}
   - component: {fileID: 1541769817}
+  - component: {fileID: 1541769818}
   m_Layer: 0
   m_Name: Demon
   m_TagString: Untagged
@@ -1073,7 +1132,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541769811}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23c8ee912830dc74fa858b0d8f2549d8, type: 3}
   m_Name: 
@@ -1111,7 +1170,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1135,7 +1194,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541769811}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1154,6 +1213,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1541769818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541769811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5b2342dd115ddb4ebb1cf2bc9f9230e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  damage: 20
 --- !u!1 &1686568183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,6 +1549,7 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 23766677}
   - {fileID: 1069578346}
   - {fileID: 375785290}
   - {fileID: 391128882}
