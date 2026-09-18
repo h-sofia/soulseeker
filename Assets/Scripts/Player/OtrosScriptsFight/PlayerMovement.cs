@@ -1,24 +1,57 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovementwa : MonoBehaviour
 {
     public CharacterController2D controller;
-    public float runSpeed = 40f;
+    public float runSpeed = 5f;
+
+    public Transform firePoint;
+
     float horizontalMove = 0f;
-    // Start is called before the first frame update
+
+    private Animator animator;
+
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
+        horizontalMove = 0f;
+
+        if (Keyboard.current != null)
+        {
+            if (Keyboard.current.aKey.isPressed)
+            {
+                horizontalMove = -runSpeed;
+
+                animator.SetBool("IsWalking", true);
+                animator.SetBool("FacingRight", false);
+
+                firePoint.localPosition = new Vector3(-2.26f, 1.4f, 0f);
+                firePoint.localRotation = Quaternion.Euler(0f, 0f, 180f);
+            }
+            else if (Keyboard.current.dKey.isPressed)
+            {
+                horizontalMove = runSpeed;
+
+                animator.SetBool("IsWalking", true);
+                animator.SetBool("FacingRight", true);
+
+                firePoint.localPosition = new Vector3(2.26f, 1.4f, 0f);
+                firePoint.localRotation = Quaternion.Euler(0f, 0f, 0f);
+            }
+            else
+            {
+                animator.SetBool("IsWalking", false);
+            }
+        }
     }
-    void FixedUpdate() {
+
+    void FixedUpdate()
+    {
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, false);
     }
 }
