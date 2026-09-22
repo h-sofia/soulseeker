@@ -6,13 +6,14 @@ public class EnemyScript : MonoBehaviour
     public int health = 500;
     public GameObject deathEffect;
     public Slider healthBar;
-    private Animator anim;
 
+    private Animator anim;
 
     void Start()
     {
         healthBar.maxValue = 500;
         healthBar.value = health;
+
         anim = GetComponent<Animator>();
     }
 
@@ -24,11 +25,12 @@ public class EnemyScript : MonoBehaviour
 
         if (health <= 0)
         {
-            Die();
+            health = 0;
+
             anim.SetTrigger("Death");
 
+            Die();
         }
-        
     }
 
     void Die()
@@ -38,6 +40,6 @@ public class EnemyScript : MonoBehaviour
             Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
 
-        Destroy(gameObject);
+        Destroy(gameObject, 1f);
     }
 }

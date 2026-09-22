@@ -9,8 +9,6 @@ public class PlayerMovementwa : MonoBehaviour
 
     public Transform firePoint;
 
-    public int health = 100;
-
     float horizontalMove = 0f;
 
     private Animator animator;
@@ -56,19 +54,5 @@ public class PlayerMovementwa : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, false);
     }
 
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-
-        if (health > 0)
-        {
-            animator.SetTrigger("Hit");
-        }
-        else
-        {
-            health = 0;
-            animator.SetTrigger("Death");
-            Destroy(gameObject);
-        }
-    }
+   
 }

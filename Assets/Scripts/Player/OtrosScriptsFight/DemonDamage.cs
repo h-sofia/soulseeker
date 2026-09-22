@@ -2,15 +2,17 @@ using UnityEngine;
 
 public class DemonDamage : MonoBehaviour
 {
-    public int damage = 20;
+    public PlayerHealth playerHealth;
+    public int damage;
 
-    private void OnTriggerEnter2D(Collider2D hitInfo)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        PlayerMovementwa player = hitInfo.GetComponentInParent<PlayerMovementwa>();
-
-        if (player != null)
+        if(collision.gameObject.tag == "PlayerFight")
         {
-            player.TakeDamage(damage);
+            playerHealth.TakeDamage(damage);
         }
     }
+
+
+    
 }
