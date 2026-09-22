@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(PlayerInput))]
 public class PlayerMovementwa : MonoBehaviour
 {
     public CharacterController2D controller;
@@ -13,42 +14,40 @@ public class PlayerMovementwa : MonoBehaviour
     float horizontalMove = 0f;
 
     private Animator animator;
+    private InputAction moveAction;
 
-    void Start()
+    void Awake()
     {
         animator = GetComponent<Animator>();
+
+        PlayerInput playerInput = GetComponent<PlayerInput>();
+        moveAction = playerInput.actions.FindAction("MoveFight", true);
     }
 
     void Update()
     {
-        horizontalMove = 0f;
+        float moveInput = moveAction.ReadValue<Vector2>().x;
+        horizontalMove = moveInput * runSpeed;
 
-        if (Keyboard.current != null)
+        if (moveInput < 0f)
         {
-            if (Keyboard.current.aKey.isPressed)
-            {
-                horizontalMove = -runSpeed;
+            animator.SetBool("IsWalking", true);
+            animator.SetBool("FacingRight", false);
 
-                animator.SetBool("IsWalking", true);
-                animator.SetBool("FacingRight", false);
+            firePoint.localPosition = new Vector3(-2.26f, 1.4f, 0f);
+            firePoint.localRotation = Quaternion.Euler(0f, 0f, 180f);
+        }
+        else if (moveInput > 0f)
+        {
+            animator.SetBool("IsWalking", true);
+            animator.SetBool("FacingRight", true);
 
-                firePoint.localPosition = new Vector3(-2.26f, 1.4f, 0f);
-                firePoint.localRotation = Quaternion.Euler(0f, 0f, 180f);
-            }
-            else if (Keyboard.current.dKey.isPressed)
-            {
-                horizontalMove = runSpeed;
-
-                animator.SetBool("IsWalking", true);
-                animator.SetBool("FacingRight", true);
-
-                firePoint.localPosition = new Vector3(2.26f, 1.4f, 0f);
-                firePoint.localRotation = Quaternion.Euler(0f, 0f, 0f);
-            }
-            else
-            {
-                animator.SetBool("IsWalking", false);
-            }
+            firePoint.localPosition = new Vector3(2.26f, 1.4f, 0f);
+            firePoint.localRotation = Quaternion.Euler(0f, 0f, 0f);
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false);
         }
     }
 

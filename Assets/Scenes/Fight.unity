@@ -400,9 +400,10 @@ GameObject:
   - component: {fileID: 391128877}
   - component: {fileID: 391128883}
   - component: {fileID: 391128884}
+  - component: {fileID: 391128885}
   m_Layer: 0
   m_Name: PlayerFight
-  m_TagString: Untagged
+  m_TagString: PlayerFight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -425,7 +426,7 @@ MonoBehaviour:
   m_AirControl: 0
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_GroundCheck: {fileID: 573290365}
   m_CeilingCheck: {fileID: 2041704343}
   m_CrouchDisableCollider: {fileID: 0}
@@ -593,13 +594,14 @@ Transform:
   m_GameObject: {fileID: 391128876}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.27, y: -1.89, z: 0}
+  m_LocalPosition: {x: 25.53, y: -1.89, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 573290365}
   - {fileID: 2041704343}
   - {fileID: 1686568184}
+  - {fileID: 1069578346}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &391128883
@@ -638,6 +640,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   firePoint: {fileID: 1686568184}
   bulletPrefab: {fileID: 3775198146197330843, guid: eba0c9cbf5b663e4a999460264a13088, type: 3}
+--- !u!114 &391128885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391128876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: 6c547492e44439346be507e7df68589f, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: PlayerFight
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1 &573290364
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,11 +824,11 @@ Transform:
   m_GameObject: {fileID: 1069578343}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.3999996, y: 1.11, z: -10}
+  m_LocalPosition: {x: 4.870001, y: 3, z: -10}
   m_LocalScale: {x: 2.83, y: 1.6640693, z: 1.6640693}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 391128882}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1069578347
 MonoBehaviour:
@@ -1119,7 +1151,7 @@ Transform:
   m_GameObject: {fileID: 1541769811}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3, y: 0.6, z: 0}
+  m_LocalPosition: {x: 35.500004, y: 0.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1550,7 +1582,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 23766677}
-  - {fileID: 1069578346}
   - {fileID: 375785290}
   - {fileID: 391128882}
   - {fileID: 1541769814}
