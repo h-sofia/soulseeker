@@ -7,6 +7,8 @@ public class EnemyScript : MonoBehaviour
     public GameObject deathEffect;
     public Slider healthBar;
 
+    public GameObject levelSelectUI;
+
     private Animator anim;
 
     void Start()
@@ -15,6 +17,9 @@ public class EnemyScript : MonoBehaviour
         healthBar.value = health;
 
         anim = GetComponent<Animator>();
+
+        // Ocultar el Level Selector al comenzar
+        levelSelectUI.SetActive(false);
     }
 
     public void TakeDamage(int damage)
@@ -29,17 +34,17 @@ public class EnemyScript : MonoBehaviour
 
             anim.SetTrigger("Death");
 
-            Die();
+            if (deathEffect != null)
+            {
+                Instantiate(deathEffect, transform.position, Quaternion.identity);
+            }
+
+            Invoke("ShowLevelSelect", 1f);
         }
     }
 
-    void Die()
+    void ShowLevelSelect()
     {
-        if (deathEffect != null)
-        {
-            Instantiate(deathEffect, transform.position, Quaternion.identity);
-        }
-
-        Destroy(gameObject, 2f);
+        levelSelectUI.SetActive(true);
     }
 }

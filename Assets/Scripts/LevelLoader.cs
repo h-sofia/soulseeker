@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class LevelLoader : MonoBehaviour
 {
+    public GameObject gameOverUI;
     public Animator transition;
     public float transitionTime = 1f;
 
