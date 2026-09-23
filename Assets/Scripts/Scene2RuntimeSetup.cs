@@ -11,6 +11,7 @@ public class Scene2RuntimeSetup : MonoBehaviour
     private void Awake()
     {
         Debug.Log("Scene2RuntimeSetup started.");
+        GameplayMainMenuButton.CreateForGameplayScene();
         GameObject inputManager = new GameObject("INPUTMANAGER");
         PlayerInput playerInput = inputManager.AddComponent<PlayerInput>();
         playerInput.actions = inputActions;

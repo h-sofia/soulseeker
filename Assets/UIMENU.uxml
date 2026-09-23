@@ -1,12 +1,12 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Template name="LevelSelect" src="project://database/Assets/Scripts/LevelSelect.uxml?fileID=9197481963319205126&amp;guid=ef5af0138d07ede45affaf187f65f1cd&amp;type=3#LevelSelect"/>
     <Style src="project://database/Assets/Scripts/objects/mainMenu.uss?fileID=7433441132597879392&amp;guid=261f5dff619857e4bafbd843d8b60847&amp;type=3#mainMenu"/>
-    <ui:VisualElement name="main-menu-panel" style="flex-grow: 1; min-width: 1792px; min-height: 1006px; width: 1846px;">
-        <ui:Image scale-mode="StretchToFill" name="background" style="height: 748px; background-image: url(&quot;project://database/Assets/main%20screen.png?fileID=2800000&amp;guid=c39e126591e91754b90acec1f7076f50&amp;type=3#main screen&quot;); width: 1208px; margin-left: -37px;">
-            <ui:Image style="height: 301px; width: 477px; left: 5%; top: 10%; background-image: url(&quot;project://database/Assets/logo.png?fileID=2800000&amp;guid=52c1e6e735c982842a19853afb2d104f&amp;type=3#logo&quot;);"/>
-            <ui:Button text="LEVEL " name="level-select-button" style="width: 345px; height: 80px; left: 10%; top: 10%; background-color: rgb(37, 197, 166); -unity-text-auto-size: best-fit 10px 100px; -unity-font-style: bold-and-italic; color: rgb(37, 38, 37);"/>
-            <ui:Button text="EXIT" name="exit-button" style="width: 345px; height: 80px; left: 10%; top: 11%; background-color: rgb(168, 73, 84); -unity-text-auto-size: best-fit 10px 100px; -unity-font-style: bold-and-italic; color: rgb(37, 38, 37);"/>
-            <ui:Button text="START" triple-click-selects-line="false" name="start-button" style="height: 80px; width: 348px; left: 10%; top: 13%; bottom: 156px; background-color: rgb(234, 74, 74); -unity-text-auto-size: best-fit 10px 100px; -unity-font-style: bold-and-italic; color: rgb(37, 36, 37); -unity-font-definition: initial;"/>
+    <ui:VisualElement name="main-menu-panel" style="flex-grow: 1; width: 100%; height: 100%;">
+        <ui:Image scale-mode="StretchToFill" name="background" style="width: 100%; height: 100%; background-image: url(&quot;project://database/Assets/main%20screen.png?fileID=2800000&amp;guid=c39e126591e91754b90acec1f7076f50&amp;type=3#main screen&quot;);">
+            <ui:Image style="height: 28%; width: 35%; left: 5%; top: 10%; background-image: url(&quot;project://database/Assets/logo.png?fileID=2800000&amp;guid=52c1e6e735c982842a19853afb2d104f&amp;type=3#logo&quot;);"/>
+            <ui:Button text="LEVEL " name="level-select-button" style="width: 28%; height: 8%; left: 10%; top: 10%; background-color: rgb(37, 197, 166); -unity-text-auto-size: best-fit 10px 100px; -unity-font-style: bold-and-italic; color: rgb(37, 38, 37);"/>
+            <ui:Button text="EXIT" name="exit-button" style="width: 28%; height: 8%; left: 10%; top: 11%; background-color: rgb(168, 73, 84); -unity-text-auto-size: best-fit 10px 100px; -unity-font-style: bold-and-italic; color: rgb(37, 38, 37);"/>
+            <ui:Button text="START" triple-click-selects-line="false" name="start-button" style="height: 8%; width: 28%; left: 10%; top: 13%; background-color: rgb(234, 74, 74); -unity-text-auto-size: best-fit 10px 100px; -unity-font-style: bold-and-italic; color: rgb(37, 36, 37); -unity-font-definition: initial;"/>
         </ui:Image>
     </ui:VisualElement>
     <ui:Instance template="LevelSelect" name="level-select-panel" class="hidden"/>

@@ -2235,7 +2235,7 @@ MonoBehaviour:
   health: 500
   deathEffect: {fileID: 0}
   healthBar: {fileID: 1168598493}
-  levelSelectUI: {fileID: 0}
+  levelSelectUI: {fileID: 511062123}
 --- !u!61 &1541769816
 BoxCollider2D:
   m_ObjectHideFlags: 0

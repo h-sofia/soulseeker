@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class EnemyScript : MonoBehaviour
@@ -10,6 +11,7 @@ public class EnemyScript : MonoBehaviour
     public GameObject levelSelectUI;
 
     private Animator anim;
+    private bool isDead;
 
     void Start()
     {
@@ -24,12 +26,18 @@ public class EnemyScript : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (isDead)
+        {
+            return;
+        }
+
         health -= damage;
 
         healthBar.value = health;
 
         if (health <= 0)
         {
+            isDead = true;
             health = 0;
 
             anim.SetTrigger("Death");
@@ -39,12 +47,12 @@ public class EnemyScript : MonoBehaviour
                 Instantiate(deathEffect, transform.position, Quaternion.identity);
             }
 
-            Invoke("ShowLevelSelect", 1f);
+            Invoke(nameof(LoadScene2), 1f);
         }
     }
 
-    void ShowLevelSelect()
+    private void LoadScene2()
     {
-        levelSelectUI.SetActive(true);
+        SceneManager.LoadScene("scene2");
     }
 }

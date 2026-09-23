@@ -34,6 +34,9 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Scene3.unity
     m_guid: 0b2d784dfce288343a4ce9221b253a62
+  - m_enabled: 1
+    m_path: Assets/Scenes/Fight.unity
+    m_guid: 5ca132cfdb52da54296378f3d8c7ade6
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:

@@ -9,6 +9,11 @@ public class LevelLoader : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1f;
 
+    private void Awake()
+    {
+        GameplayMainMenuButton.CreateForGameplayScene();
+    }
+
     void Update()
     {
         if (Keyboard.current != null && Keyboard.current.enterKey.wasPressedThisFrame)
@@ -19,13 +24,7 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadNextLevel()
     {
-        if (SceneManager.GetActiveScene().name == "Scene3")
-        {
-            StartCoroutine(LoadScene("SampleScene"));
-            return;
-        }
-
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        StartCoroutine(LoadScene("Fight"));
     }
 
     IEnumerator LoadScene(string sceneName)

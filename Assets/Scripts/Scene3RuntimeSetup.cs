@@ -10,6 +10,7 @@ public class Scene3RuntimeSetup : MonoBehaviour
 
     private void Awake()
     {
+        GameplayMainMenuButton.CreateForGameplayScene();
         Scene2DialogueUI dialogueUI = gameObject.AddComponent<Scene2DialogueUI>();
         StarInteractable[] stars = FindObjectsByType<StarInteractable>(
             FindObjectsInactive.Include,
