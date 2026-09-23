@@ -6,6 +6,7 @@ public class MainMenuController : MonoBehaviour
 {
     private UIDocument document;
     private Button startButton;
+    private Button exitButton;
     private Button level1Button;
     private Button level2Button;
     private Button level3Button;
@@ -77,6 +78,17 @@ public class MainMenuController : MonoBehaviour
             Debug.LogError("Could not find start-button.");
         }
 
+        exitButton = root.Q<Button>("exit-button");
+
+        if (exitButton != null)
+        {
+            exitButton.clicked += ExitGame;
+        }
+        else
+        {
+            Debug.LogError("Could not find exit-button.");
+        }
+
         level1Button = root.Q<Button>("level-1-button");
 
         if (level1Button != null)
@@ -118,6 +130,11 @@ public class MainMenuController : MonoBehaviour
             startButton.clicked -= StartGame;
         }
 
+        if (exitButton != null)
+        {
+            exitButton.clicked -= ExitGame;
+        }
+
         if (level1Button != null)
         {
             level1Button.clicked -= LoadLevel1;
@@ -137,6 +154,12 @@ public class MainMenuController : MonoBehaviour
     private void StartGame()
     {
         LoadScene("Scene1");
+    }
+
+    private void ExitGame()
+    {
+        Debug.Log("Exit Game button clicked.");
+        Application.Quit();
     }
 
     private void LoadLevel1()
