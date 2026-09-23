@@ -11,12 +11,32 @@ public class INPUTMANAGER : MonoBehaviour
     private void Awake()
     {
         _playerInput = GetComponent<PlayerInput>();
-
-        _moveAction = _playerInput.actions["Move"];
+        InitializeMoveAction();
     }
 
     private void Update()
     {
+        if (_moveAction == null)
+        {
+            InitializeMoveAction();
+        }
+
+        if (_moveAction == null)
+        {
+            Movement = Vector2.zero;
+            return;
+        }
+
         Movement = _moveAction.ReadValue<Vector2>();
+    }
+
+    private void InitializeMoveAction()
+    {
+        if (_playerInput != null &&
+            _playerInput.actions != null)
+        {
+            _playerInput.ActivateInput();
+            _moveAction = _playerInput.actions["Move"];
+        }
     }
 }

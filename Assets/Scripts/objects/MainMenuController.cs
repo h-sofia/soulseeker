@@ -8,6 +8,7 @@ public class MainMenuController : MonoBehaviour
     private Button startButton;
     private Button level1Button;
     private Button level2Button;
+    private Button level3Button;
 
     private VisualElement mainMenuPanel;
     private VisualElement levelSelectPanel;
@@ -97,6 +98,17 @@ public class MainMenuController : MonoBehaviour
         {
             Debug.LogError("Could not find level-2-button.");
         }
+
+        level3Button = root.Q<Button>("level-3-button");
+
+        if (level3Button != null)
+        {
+            level3Button.clicked += LoadLevel3;
+        }
+        else
+        {
+            Debug.LogError("Could not find level-3-button.");
+        }
     }
 
     private void OnDestroy()
@@ -115,6 +127,11 @@ public class MainMenuController : MonoBehaviour
         {
             level2Button.clicked -= LoadLevel2;
         }
+
+        if (level3Button != null)
+        {
+            level3Button.clicked -= LoadLevel3;
+        }
     }
 
     private void StartGame()
@@ -129,7 +146,12 @@ public class MainMenuController : MonoBehaviour
 
     private void LoadLevel2()
     {
-        LoadScene("Scene2");
+        LoadScene("scene2");
+    }
+
+    private void LoadLevel3()
+    {
+        LoadScene("Scene3");
     }
 
     private void LoadScene(string sceneName)

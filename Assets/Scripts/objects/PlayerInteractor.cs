@@ -15,6 +15,13 @@ public class PlayerInteractor : MonoBehaviour
 
     private IInteractable currentInteractable;
 
+    public void ConfigureInteraction(Transform source, float range, LayerMask layer)
+    {
+        interactSource = source;
+        interactRange = range;
+        interactableLayer = layer;
+    }
+
     private void Update()
     {
         if (dialogueUI != null && dialogueUI.IsOpen)
