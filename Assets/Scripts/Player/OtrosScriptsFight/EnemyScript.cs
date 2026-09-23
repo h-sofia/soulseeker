@@ -40,6 +40,6 @@ public class EnemyScript : MonoBehaviour
             Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
 
-        Destroy(gameObject, 1f);
+        Destroy(gameObject, 2f);
     }
 }
