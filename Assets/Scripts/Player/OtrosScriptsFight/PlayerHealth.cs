@@ -8,6 +8,10 @@ public class PlayerHealth : MonoBehaviour
 
     public float invincibilityTime = 1f;
 
+    private bool isDead;
+
+    public GameManagerScript gameManager;
+
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private bool isInvincible = false;
@@ -31,11 +35,15 @@ public class PlayerHealth : MonoBehaviour
 
         Debug.Log("PLAYER HP: " + health);
 
-        if (health <= 0)
+        if (health <= 0 && !isDead)
         {
+            isDead = true;
             health = 0;
 
             animator.SetTrigger("Death");
+
+
+            gameManager.gameOver();
 
             Destroy(gameObject, 1f);
         }
