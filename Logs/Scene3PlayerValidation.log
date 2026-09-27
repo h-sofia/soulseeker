@@ -1,0 +1,511 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paois" at "2026-09-27T00:11:18.656362Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-27T00:11:18Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.8f1\Editor\Unity.exe
+-batchmode
+-nographics
+-quit
+-projectPath
+C:\Users\paois\Documents\SoulSeeker
+-logFile
+Logs\Scene3PlayerValidation.log
+Successfully changed project path to: C:\Users\paois\Documents\SoulSeeker
+C:/Users/paois/Documents/SoulSeeker
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [37208]  Target information:
+
+Player connection [37208]  * "[IP] 192.168.0.12 [Port] 55504 [Flags] 2 [Guid] 2157930428 [EditorId] 2157930428 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6FK2FIO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37208] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37208] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-11676" after 0.2 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-paois"
+[Licensing::IpcConnector] LicenseClient-paois channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-paois-6000.5.8 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 38840)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paois-6000.5.8" at "2026-09-27T00:11:19.5896126Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 38840, path: "C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              5bbf26c5972747448191a5cd22879fae
+  Correlation Id:          078c505ac0945acf229ec86458e6b07c
+  External correlation Id: 2210179398897882500
+  Machine Id:              4lwPIFWQBcKCY4ogEttypPrCKkM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-paois-6000.5.8" (connect: 0.25s, validation: 0.17s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-paois-6000.5.8-notifications" at "2026-09-27T00:11:19.7671124Z"
+[Licensing::Module] Connected to LicensingClient (PId: 38840, launch time: 0.00, total connection time: 0.42s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674091325332-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.15s
+[Licensing::Module] Licensing is initialized (took 0.69s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 1 unused hashed content files
+Initialize engine version: 6000.5.8f1 (5cb7df797b7d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/paois/Documents/SoulSeeker/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002545 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.527 seconds
+Domain Reload Profiling: 1085ms
+	BeginReloadAssembly (166ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (130ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (198ms)
+	FinalizeReload (529ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 73 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@15.1.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.2d.animation@6d5a363ae647)
+    com.unity.2d.aseprite@5.0.3 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.2d.aseprite@d13865913efa)
+    com.unity.2d.psdimporter@14.0.3 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.2d.psdimporter@5d82044f9e43)
+    com.unity.2d.spriteshape@15.0.3 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.2d.spriteshape@fcb7ec61a58b)
+    com.unity.2d.tilemap.extras@8.0.3 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.2d.tilemap.extras@a80140457adc)
+    com.unity.2d.tooling@3.0.1 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.2d.tooling@6f06ffb033c0)
+    com.unity.asset-manager-for-unity@1.11.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.asset-manager-for-unity@71c49222cba8)
+    com.unity.cinemachine@3.1.7 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.cinemachine@f3f96bcb59af)
+    com.unity.collab-proxy@2.13.5 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.collab-proxy@120d77864ebc)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.services.cloudsave@3.4.1 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.services.cloudsave@53bc6d7e3069)
+    com.unity.timeline@1.8.12 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.services.core@1.18.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.services.core@3464cb68d709)
+    com.unity.services.authentication@3.7.3 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.services.authentication@4e591ebe4d6b)
+    com.unity.splines@2.9.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.splines@e6e1d5900acc)
+    com.unity.settings-manager@2.1.1 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+    com.unity.2d.common@14.0.1 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.2d.common@73badf92ba8b)
+    com.unity.searcher@4.9.5 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.30 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.burst@2f3d916873ea)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.2d.sprite@053a968eab56)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.2d.tilemap@b959501fd678)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.render-pipelines.universal@73b4c4ff130e)
+    com.unity.test-framework@1.7.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.ugui@1c4864518158)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.render-pipelines.core@a4c9a9793789)
+    com.unity.shadergraph@17.5.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.shadergraph@8d7376ec43ee)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.collections@6.5.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.collections@ec2c217e4cb2)
+    com.unity.mathematics@1.4.0 (location: C:\Users\paois\Documents\SoulSeeker\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+The GUID inside 'Assets/Scripts/StarInteractable.cs.meta' cannot be extracted by the YAML Parser. Attempting to extract it via string matching instead. Please verify the file does not contain unexpected data.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/paois/Documents/SoulSeeker
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 2s466ms
+[1197/1571  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1567/1571  1s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Scripts\Player\DialogueTriggerP.cs(13,31): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\GameplayMainMenuButton.cs(22,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Player\DialogueManagerP.cs(66,17): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Scripts\Player\DialogueManagerP.cs(64,38): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Scripts\objects\TornPageInteractable.cs(20,26): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Scripts\Scene3RuntimeSetup.cs(17,13): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Scripts\Scene3RuntimeSetup.cs(15,36): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Scripts\Scene2RuntimeSetup.cs(26,17): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Scripts\Scene2RuntimeSetup.cs(24,13): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+[1568/1571  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 142 defines and 382 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1569/1571  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1570/1571  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (2.43 seconds), 5 items updated, 1571 evaluated
+Assets\Scripts\Player\DialogueTriggerP.cs(13,31): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\GameplayMainMenuButton.cs(22,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Player\DialogueManagerP.cs(66,17): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Scripts\Player\DialogueManagerP.cs(64,38): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Scripts\objects\TornPageInteractable.cs(20,26): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Scripts\Scene3RuntimeSetup.cs(17,13): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Scripts\Scene3RuntimeSetup.cs(15,36): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Scripts\Scene2RuntimeSetup.cs(26,17): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Scripts\Scene2RuntimeSetup.cs(24,13): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+AssetDatabase: script compilation time: 3.005718s
+Total cache size 122037200
+Begin MonoManager ReloadAssembly
+Total cache size after purge 122037200, took 00:00:00.1887614
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.98 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.46 ms, found 5 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.865 seconds
+Domain Reload Profiling: 6162ms
+	BeginReloadAssembly (261ms)
+		DisableScriptedObjects (28ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (925ms)
+		LoadAssemblies (464ms)
+		AnalyzeDomain (397ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (242ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (4866ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (3800ms)
+			ProcessInitializeOnLoadMethodAttributes (622ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Importing 'GUID: 0b2d784dfce288343a4ce9221b253a62 - Path: Assets/Scenes/Scene3.unity' with importer (DefaultImporter)
+Imported 'GUID: 0b2d784dfce288343a4ce9221b253a62' -> (Import Result ID: '09bc4ec76113ba08a513c4ced41727ad') in 0.016 seconds [static dependencies only]. Details - ImportResultOutputID=d1ae68004255674e8ce22c9e3369150b DependenciesID=16713f6aa332faab54685a75544e8280 StaticDependenciesID=f53ee1499a8bfca63b925b6c877775a4 
+Starting new worker id: 0 with log in C:/Users/paois/Documents/SoulSeeker/Logs/AssetImportWorkerHW0.log
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-soul-seeker
+No graphic device is available to initialize the view.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.GUIView:Internal_Init (int,int,bool,bool)
+UnityEditor.GUIView:SetWindow (UnityEditor.ContainerWindow)
+UnityEditor.HostView:SetWindow (UnityEditor.ContainerWindow)
+UnityEditor.View:SetWindowRecurse (UnityEditor.ContainerWindow)
+UnityEditor.View:AddChild (UnityEditor.View,int)
+UnityEditor.SplitView:AddChild (UnityEditor.View,int)
+UnityEditor.View:AddChild (UnityEditor.View)
+UnityEditor.EditorWindow:CreateNewWindowForEditorWindow (UnityEditor.EditorWindow,bool,bool,bool)
+UnityEditor.EditorWindow:Show (bool)
+UnityEditor.EditorWindow:Show ()
+UnityEditor.EditorWindow:CreateWindow<Unity.PlasticSCM.Editor.UVCSWindow> (string,System.Type[])
+UnityEditor.EditorWindow:GetWindow<Unity.PlasticSCM.Editor.UVCSWindow> (string,bool,System.Type[])
+Unity.PlasticSCM.Editor.UI.ShowWindow:UVCS () (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/UI/ShowWindow.cs:27)
+Unity.PlasticSCM.Editor.SwitchUVCSPlugin:On (Unity.PlasticSCM.Editor.UVCSPlugin) (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/SwitchUVCSPlugin.cs:16)
+Unity.PlasticSCM.Editor.SwitchUVCSPlugin:OnIfNeeded (Unity.PlasticSCM.Editor.UVCSPlugin) (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/SwitchUVCSPlugin.cs:25)
+Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider:OnActivate () (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/Settings/UVCSProjectSettingsProvider.cs:51)
+UnityEditor.VersionControl.VersionControlManager:Activate (string)
+
+[./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/UI/ShowWindow.cs line 27]
+
+No graphic device is available to show the window.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ContainerWindow:Internal_Show (UnityEngine.Rect,int,UnityEngine.Vector2,UnityEngine.Vector2)
+UnityEditor.ContainerWindow:Show (UnityEditor.ShowMode,bool,bool,bool)
+UnityEditor.EditorWindow:CreateNewWindowForEditorWindow (UnityEditor.EditorWindow,bool,bool,bool)
+UnityEditor.EditorWindow:Show (bool)
+UnityEditor.EditorWindow:Show ()
+UnityEditor.EditorWindow:CreateWindow<Unity.PlasticSCM.Editor.UVCSWindow> (string,System.Type[])
+UnityEditor.EditorWindow:GetWindow<Unity.PlasticSCM.Editor.UVCSWindow> (string,bool,System.Type[])
+Unity.PlasticSCM.Editor.UI.ShowWindow:UVCS () (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/UI/ShowWindow.cs:27)
+Unity.PlasticSCM.Editor.SwitchUVCSPlugin:On (Unity.PlasticSCM.Editor.UVCSPlugin) (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/SwitchUVCSPlugin.cs:16)
+Unity.PlasticSCM.Editor.SwitchUVCSPlugin:OnIfNeeded (Unity.PlasticSCM.Editor.UVCSPlugin) (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/SwitchUVCSPlugin.cs:25)
+Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider:OnActivate () (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/Settings/UVCSProjectSettingsProvider.cs:51)
+UnityEditor.VersionControl.VersionControlManager:Activate (string)
+
+[./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/UI/ShowWindow.cs line 27]
+
+No graphic device is available to initialize the view.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.GUIView:Internal_Init (int,int,bool,bool)
+UnityEditor.GUIView:SetWindow (UnityEditor.ContainerWindow)
+UnityEditor.HostView:SetWindow (UnityEditor.ContainerWindow)
+UnityEditor.View:SetWindowRecurse (UnityEditor.ContainerWindow)
+UnityEditor.View:SetWindowRecurse (UnityEditor.ContainerWindow)
+UnityEditor.ContainerWindow:Show (UnityEditor.ShowMode,bool,bool,bool)
+UnityEditor.EditorWindow:CreateNewWindowForEditorWindow (UnityEditor.EditorWindow,bool,bool,bool)
+UnityEditor.EditorWindow:Show (bool)
+UnityEditor.EditorWindow:Show ()
+UnityEditor.EditorWindow:CreateWindow<Unity.PlasticSCM.Editor.UVCSWindow> (string,System.Type[])
+UnityEditor.EditorWindow:GetWindow<Unity.PlasticSCM.Editor.UVCSWindow> (string,bool,System.Type[])
+Unity.PlasticSCM.Editor.UI.ShowWindow:UVCS () (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/UI/ShowWindow.cs:27)
+Unity.PlasticSCM.Editor.SwitchUVCSPlugin:On (Unity.PlasticSCM.Editor.UVCSPlugin) (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/SwitchUVCSPlugin.cs:16)
+Unity.PlasticSCM.Editor.SwitchUVCSPlugin:OnIfNeeded (Unity.PlasticSCM.Editor.UVCSPlugin) (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/SwitchUVCSPlugin.cs:25)
+Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider:OnActivate () (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/Settings/UVCSProjectSettingsProvider.cs:51)
+UnityEditor.VersionControl.VersionControlManager:Activate (string)
+
+[./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/UI/ShowWindow.cs line 27]
+
+Refreshing native plugins compatible for Editor in 5.72 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=a517f5b7d2e3b6c448df589fb3d77146): Total: 11.148 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=7 ms, native=5755 ms
+		Asset DB Callback time: managed=196 ms, native=685 ms
+		Scripting: domain reloads=1, domain reload time=1380 ms, compile time=3009 ms, other=113 ms
+		Project Asset Count: scripts=2115, non-scripts=3626
+		Asset File Changes: new=0, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 32.364ms
+	ApplyChangesToAssetFolders: 0.926ms
+	Scan: 196.808ms
+	Collect global state as custom dependencies: 22.663ms
+	OnSourceAssetsModified: 0.766ms
+	CategorizeScriptCompilationAssets: 77.939ms
+	ProcessAssetsWithTransientArtifactChanges: 149.245ms
+	CategorizeAssets: 84.928ms
+	CompileScripts: 3008.538ms
+	ImportOutOfDateAssets: 5004.729ms (4903.727ms without children)
+		ImportManagerImport: 18.571ms (2.097ms without children)
+		ReloadNativeAssets: 0.074ms
+		UnloadImportedAssets: 1.264ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.256ms
+		ImportSchedulerStart: 79.823ms
+	PostProcessAllAssets: 841.269ms
+		VCAutoAddAssetPostprocess 643.010ms
+		XRBuildSystem.XRAssetImported 2.102ms
+		MonoPostProcessAllAssets: 195.375ms
+			AssetPostprocessor.OnPostprocessAllAssets 49.214ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 24.717ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 21.102ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 13.302ms
+			SyncVS.PostprocessSyncProject 11.482ms
+			AssetChangedListener.OnPostprocessAllAssets 5.543ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.461ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 4.625ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.600ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.525ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.736ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.931ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.926ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.893ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.817ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.802ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.747ms
+			AssetProcessor.OnPostprocessAllAssets 0.650ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.601ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.576ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.560ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.523ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.424ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.407ms
+			CinemachineSettings.OnPostprocessAllAssets 0.390ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.388ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.386ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.358ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.358ms
+			AssetEvents.OnPostprocessAllAssets 0.330ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.315ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.304ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.290ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.288ms
+			PostProcessor.OnPostprocessAllAssets 0.280ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.272ms
+			DomainReloadProcessor.OnPostprocessAllAssets 0.271ms
+			UploadAssetPostprocessor.OnPostprocessAllAssets 0.246ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.238ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.219ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.214ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.163ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.152ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.108ms
+	PostAssetChangesProfiler: 10.082ms
+	UnloadStreamsBegin: 4.696ms
+	PersistCurrentRevisions: 0.252ms
+	GenerateScriptTypeHashes: 3.865ms
+	GenerateScriptTypeSerializationHashes: 8.126ms
+	Untracked: 1704.277ms
+
+Application.AssetDatabase Initial Refresh End
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Scanning for USB devices : 16.523ms
+Initializing Unity extensions:
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9634 unused Assets / (4.2 MB). Loaded Objects now: 10701.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 19.901700 ms (FindLiveObjects: 1.564200 ms CreateObjectMapping: 4.457100 ms MarkObjects: 9.996000 ms  DeleteObjects: 3.881200 ms)
+
+Worker ready: AssetImportWorkerHW0 0
+[Licensing::Client] Successfully resolved entitlement details
+Batchmode quit successfully invoked - shutting down!
+No graphic device is available to initialize the view.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.GUIView:Internal_Init (int,int,bool,bool)
+UnityEditor.GUIView:SetWindow (UnityEditor.ContainerWindow)
+UnityEditor.HostView:SetWindow (UnityEditor.ContainerWindow)
+UnityEditor.View:SetWindowRecurse (UnityEditor.ContainerWindow)
+UnityEditor.View:RemoveChild (int)
+UnityEditor.View:RemoveChild (UnityEditor.View)
+UnityEditor.SplitView:RemoveChild (UnityEditor.View)
+UnityEditor.SplitView:RemoveChildNice (UnityEditor.View)
+UnityEditor.DockArea:KillIfEmpty ()
+UnityEditor.DockArea:RemoveTab (UnityEditor.EditorWindow,bool,bool)
+UnityEditor.EditorWindow:Close ()
+Unity.PlasticSCM.Editor.UI.CloseWindowIfOpened:UVCS () (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/UI/CloseWindowIfOpened.cs:25)
+Unity.PlasticSCM.Editor.SwitchUVCSPlugin:Off (Unity.PlasticSCM.Editor.UVCSPlugin) (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/SwitchUVCSPlugin.cs:37)
+Unity.PlasticSCM.Editor.Settings.UVCSProjectSettingsProvider:OnDeactivate () (at ./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/Settings/UVCSProjectSettingsProvider.cs:63)
+UnityEditor.VersionControl.VersionControlManager:Deactivate ()
+UnityEditor.EditorApplication:Internal_EditorApplicationQuit ()
+
+[./Library/PackageCache/com.unity.collab-proxy@120d77864ebc/Editor/UI/CloseWindowIfOpened.cs line 25]
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-paois-6000.5.8-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-paois-6000.5.8 channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

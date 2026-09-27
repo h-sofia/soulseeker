@@ -47,7 +47,7 @@ public class EnemyScript : MonoBehaviour
                 Instantiate(deathEffect, transform.position, Quaternion.identity);
             }
 
-            Invoke(nameof(LoadScene2), 1f);
+            Invoke(nameof(LoadScene2), 5f);
         }
     }
 
