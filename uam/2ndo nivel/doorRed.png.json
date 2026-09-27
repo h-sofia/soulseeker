@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "2ndo nivel\\doorRed.png",
+    "assetName": "doorRed",
+    "assetId": "6ab3efba285c1b04d4698653",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "adc62d20-971e-46ff-b669-aa1290db0995",
+    "sequenceNumber": 1,
+    "updated": "2026-09-23T15:27:02.7810000Z",
+    "timestamp": 1790114174,
+    "checksum": "c5831acd31da9304b5e6c0f07a1381da",
+    "metaFileChecksum": "25ebac47aca91c96a1b7f8ccd93e553c",
+    "metaFileTimestamp": 1790114328,
+    "unityGUID": "04238bc0fbfaf20478ccb1a9a386c608"
+}

@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "3erNivel\\floortile.png",
+    "assetName": "floortile",
+    "assetId": "6ab3efba0b41a2e7e0ba4ab2",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "e4275d69-a3a0-4413-a778-fd0458b805b6",
+    "sequenceNumber": 1,
+    "updated": "2026-09-23T15:27:02.7650000Z",
+    "timestamp": 1790127634,
+    "checksum": "592bb715da1b14bb1b847a8378664172",
+    "metaFileChecksum": "ff31de848c23b7cc61548462a6dd8660",
+    "metaFileTimestamp": 1790130394,
+    "unityGUID": "96a44c854cd3a214e93bcb606d65b34a"
+}

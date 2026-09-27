@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "3erNivel\\wallTile.png",
+    "assetName": "wallTile",
+    "assetId": "6ab3efba7f7e6839fbf6ff78",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "5955dcaa-2e8d-49f1-8e66-550e7acac9a3",
+    "sequenceNumber": 1,
+    "updated": "2026-09-23T15:27:03.0760000Z",
+    "timestamp": 1790129232,
+    "checksum": "6cf619afda2dd6c4eaf34fb0e12247b9",
+    "metaFileChecksum": "68e3c29f7c0e64affb47a814c27ef359",
+    "metaFileTimestamp": 1790130394,
+    "unityGUID": "827b9d657738bd54fbc6da1d0d1a35f7"
+}

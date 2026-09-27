@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "2ndo nivel\\paintings.png",
+    "assetName": "paintings",
+    "assetId": "6ab3efba2a72d8dc7c009945",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "6167c92c-1f10-435b-90aa-25288f7de874",
+    "sequenceNumber": 1,
+    "updated": "2026-09-23T15:27:02.9600000Z",
+    "timestamp": 1790111196,
+    "checksum": "2554c964541e0ae2949219ba65e5197c",
+    "metaFileChecksum": "56625beff370234d96ac5078e14503cc",
+    "metaFileTimestamp": 1790112946,
+    "unityGUID": "522c4868f70e305448f448ad85caa913"
+}

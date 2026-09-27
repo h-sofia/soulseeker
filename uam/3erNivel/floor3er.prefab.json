@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "3erNivel\\floor3er.prefab",
+    "assetName": "floor3er",
+    "assetId": "6ab3f0447f7e6839fbf6ffad",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "9639f000-1378-4f0b-9941-3aac63b6e3e4",
+    "sequenceNumber": 1,
+    "updated": "2026-09-23T15:29:17.5580000Z",
+    "timestamp": 1790130442,
+    "checksum": "86d72d3cb5d87f51aa96bf7b78379c70",
+    "metaFileChecksum": "949502facfdc4c3e812df824296cb5db",
+    "metaFileTimestamp": 1790130428,
+    "unityGUID": "1767ecc29d0a20f4d994f48e929eccc5"
+}

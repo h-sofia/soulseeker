@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "3erNivel\\ceilingTile3er.prefab",
+    "assetName": "ceilingTile3er",
+    "assetId": "6ab3f044c47015b6ba9f3ee4",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "9f8f3741-82a1-4a22-a85c-6aace65bdf0f",
+    "sequenceNumber": 1,
+    "updated": "2026-09-23T15:29:17.8250000Z",
+    "timestamp": 1790131014,
+    "checksum": "06e812cfb5fa828b943abbb5c12b2152",
+    "metaFileChecksum": "65cee9958eeae2bd6303fdf06f74f835",
+    "metaFileTimestamp": 1790131008,
+    "unityGUID": "ec10bdfe49bc9e3468b04c21d5f4cded"
+}

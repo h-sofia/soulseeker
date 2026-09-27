@@ -1,0 +1,20 @@
+{
+    "serializationVersion": [
+        4,
+        0
+    ],
+    "path": "2ndo nivel\\wall.png",
+    "assetName": "wall",
+    "assetId": "6ab3efba9a0218b931ae3f5e",
+    "datasetId": "",
+    "projectId": "c576347a-05d0-4fb0-a4ea-0708e3165bef",
+    "organizationId": "4674235454536",
+    "versionId": "60393c73-328c-467b-8031-1b4813a55e03",
+    "sequenceNumber": 1,
+    "updated": "2026-09-23T15:27:02.9140000Z",
+    "timestamp": 1790118144,
+    "checksum": "b0797f7b42ed96e158d45d76e2b08ce5",
+    "metaFileChecksum": "6fa2512d4432cb73dd7f47bde6132bdb",
+    "metaFileTimestamp": 1790118290,
+    "unityGUID": "588992cc1a05cb1468080635d13c5787"
+}
