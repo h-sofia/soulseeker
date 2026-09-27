@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManagerP
   dialogue:
   - speaker: Leo
-    text: Huh, my location changed!
+    text: Huh, my location changed! Looks like I'm in Elena's house.
     portrait: {fileID: 99991607, guid: 35e2ace1c6025984da57ec1b9625b483, type: 3}
   - speaker: Leo
     text: That demon dropped this...
@@ -6741,6 +6741,7 @@ GameObject:
   - component: {fileID: 2089078683}
   - component: {fileID: 2089078682}
   - component: {fileID: 2089078681}
+  - component: {fileID: 2089078684}
   m_Layer: 8
   m_Name: Soul2
   m_TagString: Untagged
@@ -6869,6 +6870,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2089078684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089078679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d9f6b8a1c3e47f0a2b5d7e9c1f30468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Soul2SceneTransition
+  nextScene: Scene3
 --- !u!1 &3000000001
 GameObject:
   m_ObjectHideFlags: 0
