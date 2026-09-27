@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class Scene2RuntimeSetup : MonoBehaviour
 {
-    [SerializeField] private Vector3 playerSpawn = new Vector3(10f, 40f, -1f);
+    [SerializeField] private GameObject player;
     [SerializeField] private Sprite playerSprite;
     [SerializeField] private RuntimeAnimatorController playerAnimator;
     [SerializeField] private InputActionAsset inputActions;
@@ -30,22 +30,34 @@ public class Scene2RuntimeSetup : MonoBehaviour
             page.SetDialogueUI(dialogueUI);
         }
 
-        GameObject player = new GameObject("Player");
+        if (player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player");
+        }
+
+        if (player == null)
+        {
+            Debug.LogError("Scene 2 needs a Player object to use as its spawn point.", this);
+            return;
+        }
+
         player.layer = 8;
         player.tag = "Player";
-        player.transform.position = new Vector3(
-            playerSpawn.x,
-            playerSpawn.y,
-            -0.5f
-        );
 
-        player.transform.localScale = Vector3.one;
-
-        Rigidbody2D body = player.AddComponent<Rigidbody2D>();
+        Rigidbody2D body = player.GetComponent<Rigidbody2D>();
+        if (body == null)
+        {
+            body = player.AddComponent<Rigidbody2D>();
+        }
         body.gravityScale = 0f;
         body.constraints = RigidbodyConstraints2D.FreezeRotation;
 
-        SpriteRenderer renderer = player.AddComponent<SpriteRenderer>();
+        SpriteRenderer renderer = player.GetComponent<SpriteRenderer>();
+        if (renderer == null)
+        {
+            renderer = player.AddComponent<SpriteRenderer>();
+        }
+
         if (playerSprite == null)
         {
             Debug.LogError(
@@ -59,24 +71,47 @@ public class Scene2RuntimeSetup : MonoBehaviour
         renderer.sortingLayerName = "bg";
         renderer.sortingOrder = 100;
         Debug.Log(
-            $"Scene 2 player created at {player.transform.position} with sprite {renderer.sprite?.name}."
+            $"Scene 2 player configured at {player.transform.position} with sprite {renderer.sprite?.name}."
         );
 
-        Animator animator = player.AddComponent<Animator>();
+        Animator animator = player.GetComponent<Animator>();
+        if (animator == null)
+        {
+            animator = player.AddComponent<Animator>();
+        }
         animator.runtimeAnimatorController = playerAnimator;
         animator.enabled = true;
 
-        CapsuleCollider2D collider = player.AddComponent<CapsuleCollider2D>();
+        CapsuleCollider2D collider = player.GetComponent<CapsuleCollider2D>();
+        if (collider == null)
+        {
+            collider = player.AddComponent<CapsuleCollider2D>();
+        }
         collider.offset = new Vector2(0.01f, -0.81f);
         collider.size = new Vector2(0.87f, 3.3333333f);
 
-        player.AddComponent<PlayerMovementS>();
-        PlayerInteractor interactor = player.AddComponent<PlayerInteractor>();
-        GameObject sourceObject = new GameObject("interactSource");
-        sourceObject.transform.SetParent(player.transform);
-        sourceObject.transform.localPosition = Vector3.zero;
+        if (player.GetComponent<PlayerMovementS>() == null)
+        {
+            player.AddComponent<PlayerMovementS>();
+        }
+
+        PlayerInteractor interactor = player.GetComponent<PlayerInteractor>();
+        if (interactor == null)
+        {
+            interactor = player.AddComponent<PlayerInteractor>();
+        }
+
+        Transform source = player.transform.Find("interactSource");
+        if (source == null)
+        {
+            GameObject sourceObject = new GameObject("interactSource");
+            source = sourceObject.transform;
+            source.SetParent(player.transform);
+            source.localPosition = Vector3.zero;
+        }
+
         interactor.ConfigureInteraction(
-            sourceObject.transform,
+            source,
             3f,
             1 << 8
         );
@@ -89,8 +124,8 @@ public class Scene2RuntimeSetup : MonoBehaviour
         }
 
         mainCamera.transform.position = new Vector3(
-            playerSpawn.x,
-            playerSpawn.y,
+            player.transform.position.x,
+            player.transform.position.y,
             mainCamera.transform.position.z
         );
         Scene2CameraFollow follow =
