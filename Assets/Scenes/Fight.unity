@@ -778,6 +778,7 @@ GameObject:
   - component: {fileID: 391128884}
   - component: {fileID: 391128885}
   - component: {fileID: 391128886}
+  - component: {fileID: 900000001}
   m_Layer: 0
   m_Name: PlayerFight
   m_TagString: PlayerFight
@@ -1061,6 +1062,23 @@ MonoBehaviour:
   maxHealth: 100
   invincibilityTime: 2
   gameManager: {fileID: 714200402}
+--- !u!114 &900000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391128876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d01f0a03a184a4baf92bcd4bfe7d061, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealthHearts
+  heartSprite: {fileID: -205270267638800340, guid: 49003626b760c734a9fe9b774f6d0c1a, type: 3}
+  heartCount: 5
+  heartSize: 56
+  spacing: 8
+  screenPadding: {x: 32, y: 32}
 --- !u!1 &416303036
 GameObject:
   m_ObjectHideFlags: 0

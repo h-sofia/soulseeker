@@ -346,7 +346,7 @@ Transform:
   m_GameObject: {fileID: 90596517}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.6525425, y: -0.5095899, z: -10}
+  m_LocalPosition: {x: -1.616171, y: -0.50953007, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -851,6 +851,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &900000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963683922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d01f0a03a184a4baf92bcd4bfe7d061, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealthHearts
+  heartSprite: {fileID: -205270267638800340, guid: 49003626b760c734a9fe9b774f6d0c1a, type: 3}
+  heartCount: 5
+  heartSize: 56
+  spacing: 8
+  screenPadding: {x: 32, y: 32}
 --- !u!1 &963683922
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,6 +886,7 @@ GameObject:
   - component: {fileID: 963683925}
   - component: {fileID: 963683924}
   - component: {fileID: 963683923}
+  - component: {fileID: 900000001}
   m_Layer: 0
   m_Name: PlayerFight
   m_TagString: PlayerFight
@@ -2070,7 +2088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -34.358524, y: -60}
+  m_AnchoredPosition: {x: -34.358524, y: -944}
   m_SizeDelta: {x: 1467.8875, y: 36}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &3000000103
