@@ -21,40 +21,34 @@ public class LevelLoader : MonoBehaviour
             AddBlockingCollider("shower_0");
             AddBlockingCollider("WC_0");
             AddBlockingCollider("sink_0");
-            ConfigureWallTeleport();
+            ConfigureWallTeleport(
+                "wallCollider (1)",
+                new Vector3(17.21f, -43.9f, 0f)
+            );
+            ConfigureWallTeleport(
+                "wallCollider (2)",
+                new Vector3(64.08f, -69.8f, 0f)
+            );
             ConfigureFountainInteraction();
         }
     }
 
-    private void ConfigureWallTeleport()
+    private void ConfigureWallTeleport(string objectName, Vector3 destination)
     {
-        BoxCollider2D[] colliders = FindObjectsByType<BoxCollider2D>(
-            FindObjectsInactive.Include,
-            FindObjectsSortMode.None
-        );
-
-        BoxCollider2D wallCollider = null;
-        foreach (BoxCollider2D candidate in colliders)
+        GameObject wall = GameObject.Find(objectName);
+        if (wall == null)
         {
-            if (candidate.gameObject.name == "wallCollider (1)")
-            {
-                wallCollider = candidate;
-                break;
-            }
-
-            if (candidate.gameObject.name == "wallCollider")
-            {
-                wallCollider = candidate;
-            }
-        }
-
-        if (wallCollider == null)
-        {
-            Debug.LogError("Scene 1 is missing wallCollider (1).", this);
+            Debug.LogError($"Scene 1 is missing {objectName}.", this);
             return;
         }
 
-        GameObject wall = wallCollider.gameObject;
+        BoxCollider2D collider = wall.GetComponent<BoxCollider2D>();
+        if (collider == null)
+        {
+            Debug.LogError($"{objectName} is missing its BoxCollider2D.", wall);
+            return;
+        }
+
         wall.layer = 8;
 
         DoorTeleportInteractable interactable =
@@ -64,7 +58,7 @@ public class LevelLoader : MonoBehaviour
             interactable = wall.AddComponent<DoorTeleportInteractable>();
         }
 
-        interactable.SetDestination(new Vector3(17.21f, -43.9f, 0f));
+        interactable.SetDestination(destination);
     }
 
     private void AddBlockingCollider(string objectName)
