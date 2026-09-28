@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class FinalBossHealth : MonoBehaviour
@@ -53,6 +54,7 @@ public class FinalBossHealth : MonoBehaviour
             isDead = true;
 
             Debug.Log("FINAL BOSS DEFEATED!");
+            SceneManager.LoadScene("Outro");
         }
     }
 }

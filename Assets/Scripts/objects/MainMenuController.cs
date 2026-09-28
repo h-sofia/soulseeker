@@ -153,7 +153,7 @@ public class MainMenuController : MonoBehaviour
 
     private void StartGame()
     {
-        LoadScene("Scene1");
+        LoadScene("Intro");
     }
 
     private void ExitGame()
