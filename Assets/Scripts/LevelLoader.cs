@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
+using UnityEngine.Tilemaps;
 
 public class LevelLoader : MonoBehaviour
 {
@@ -12,6 +13,150 @@ public class LevelLoader : MonoBehaviour
     private void Awake()
     {
         GameplayMainMenuButton.CreateForGameplayScene();
+
+        if (SceneManager.GetActiveScene().name == "Scene1")
+        {
+            AddTilemapCollision("miniwall");
+            AddTilemapCollision("LVL1");
+            AddBlockingCollider("shower_0");
+            AddBlockingCollider("WC_0");
+            AddBlockingCollider("sink_0");
+            ConfigureWallTeleport();
+            ConfigureFountainInteraction();
+        }
+    }
+
+    private void ConfigureWallTeleport()
+    {
+        BoxCollider2D[] colliders = FindObjectsByType<BoxCollider2D>(
+            FindObjectsInactive.Include,
+            FindObjectsSortMode.None
+        );
+
+        BoxCollider2D wallCollider = null;
+        foreach (BoxCollider2D candidate in colliders)
+        {
+            if (candidate.gameObject.name == "wallCollider (1)")
+            {
+                wallCollider = candidate;
+                break;
+            }
+
+            if (candidate.gameObject.name == "wallCollider")
+            {
+                wallCollider = candidate;
+            }
+        }
+
+        if (wallCollider == null)
+        {
+            Debug.LogError("Scene 1 is missing wallCollider (1).", this);
+            return;
+        }
+
+        GameObject wall = wallCollider.gameObject;
+        wall.layer = 8;
+
+        DoorTeleportInteractable interactable =
+            wall.GetComponent<DoorTeleportInteractable>();
+        if (interactable == null)
+        {
+            interactable = wall.AddComponent<DoorTeleportInteractable>();
+        }
+
+        interactable.SetDestination(new Vector3(17.21f, -43.9f, 0f));
+    }
+
+    private void AddBlockingCollider(string objectName)
+    {
+        SpriteRenderer[] renderers = FindObjectsByType<SpriteRenderer>(
+            FindObjectsInactive.Include,
+            FindObjectsSortMode.None
+        );
+
+        foreach (SpriteRenderer renderer in renderers)
+        {
+            if (renderer.gameObject.name != objectName)
+            {
+                continue;
+            }
+
+            BoxCollider2D collider = renderer.GetComponent<BoxCollider2D>();
+            if (collider == null)
+            {
+                collider = renderer.gameObject.AddComponent<BoxCollider2D>();
+            }
+
+            collider.isTrigger = false;
+            if (renderer.sprite != null)
+            {
+                collider.size = renderer.sprite.bounds.size;
+                collider.offset = renderer.sprite.bounds.center;
+            }
+
+            return;
+        }
+
+        Debug.LogError($"Scene 1 is missing {objectName}.", this);
+    }
+
+    private void AddTilemapCollision(string tilemapName)
+    {
+        Tilemap[] tilemaps = FindObjectsByType<Tilemap>(
+            FindObjectsInactive.Include,
+            FindObjectsSortMode.None
+        );
+
+        foreach (Tilemap tilemap in tilemaps)
+        {
+            if (tilemap.gameObject.name != tilemapName)
+            {
+                continue;
+            }
+
+            if (tilemap.GetComponent<TilemapCollider2D>() == null)
+            {
+                tilemap.gameObject.AddComponent<TilemapCollider2D>();
+            }
+
+            return;
+        }
+
+        Debug.LogError($"Scene 1 is missing the {tilemapName} Tilemap.", this);
+    }
+
+    private void ConfigureFountainInteraction()
+    {
+        GameObject fountain = GameObject.Find("fountain_0");
+        if (fountain == null)
+        {
+            Debug.LogError("Scene 1 is missing fountain_0.", this);
+            return;
+        }
+
+        fountain.layer = 8;
+
+        BoxCollider2D collider = fountain.GetComponent<BoxCollider2D>();
+        if (collider == null)
+        {
+            collider = fountain.AddComponent<BoxCollider2D>();
+        }
+
+        collider.isTrigger = true;
+        SpriteRenderer renderer = fountain.GetComponent<SpriteRenderer>();
+        if (renderer != null && renderer.sprite != null)
+        {
+            collider.size = renderer.sprite.bounds.size;
+        }
+
+        FountainInteractable interactable =
+            fountain.GetComponent<FountainInteractable>();
+        if (interactable == null)
+        {
+            interactable = fountain.AddComponent<FountainInteractable>();
+        }
+
+        interactable.SetDialogueUI(FindFirstObjectByType<DialogueUI>());
     }
 
     void Update()
