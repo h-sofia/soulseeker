@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Tilemaps;
 
 public class Scene2RuntimeSetup : MonoBehaviour
 {
@@ -12,6 +13,32 @@ public class Scene2RuntimeSetup : MonoBehaviour
     {
         Debug.Log("Scene2RuntimeSetup started.");
         GameplayMainMenuButton.CreateForGameplayScene();
+        AddTilemapCollision("wallTop");
+        AddTilemapCollision("wall2ndfloor_0");
+        ConfigureTeleportDoor(
+            "doorGreen_0",
+            new Vector3(8.9f, 12.4f, -1.3f)
+        );
+        ConfigureTeleportDoor(
+            "greenDoorReturn",
+            new Vector3(7.27f, -7.01f, -3f)
+        );
+        ConfigureTeleportDoor(
+            "doorBlue_0",
+            new Vector3(40.1f, 12.81f, -1.3f)
+        );
+        ConfigureTeleportDoor(
+            "blueDoorReturn",
+            new Vector3(40.1f, -6.92f, -1.3f)
+        );
+        ConfigureTeleportDoor(
+            "doorRed_0",
+            new Vector3(78.7f, 13.16f, -2.1f)
+        );
+        ConfigureTeleportDoor(
+            "redDoorReturn",
+            new Vector3(78.7f, -6.97f, -2.1f)
+        );
         GameObject inputManager = new GameObject("INPUTMANAGER");
         PlayerInput playerInput = inputManager.AddComponent<PlayerInput>();
         playerInput.actions = inputActions;
@@ -132,5 +159,67 @@ public class Scene2RuntimeSetup : MonoBehaviour
             mainCamera.gameObject.AddComponent<Scene2CameraFollow>();
         follow.Target = player.transform;
         Debug.Log("Scene 2 camera attached to player.");
+    }
+
+    private void AddTilemapCollision(string tilemapName)
+    {
+        Tilemap[] tilemaps = FindObjectsByType<Tilemap>(
+            FindObjectsInactive.Include,
+            FindObjectsSortMode.None
+        );
+
+        foreach (Tilemap tilemap in tilemaps)
+        {
+            if (tilemap.gameObject.name != tilemapName)
+            {
+                continue;
+            }
+
+            if (tilemap.GetComponent<TilemapCollider2D>() == null)
+            {
+                tilemap.gameObject.AddComponent<TilemapCollider2D>();
+            }
+
+            return;
+        }
+
+        Debug.LogError(
+            $"Scene 2 is missing the {tilemapName} Tilemap.",
+            this
+        );
+    }
+
+    private void ConfigureTeleportDoor(string doorName, Vector3 destination)
+    {
+        GameObject door = GameObject.Find(doorName);
+        if (door == null)
+        {
+            Debug.LogError($"Scene 2 is missing {doorName}.", this);
+            return;
+        }
+
+        door.layer = 8;
+
+        BoxCollider2D doorCollider = door.GetComponent<BoxCollider2D>();
+        if (doorCollider == null)
+        {
+            doorCollider = door.AddComponent<BoxCollider2D>();
+        }
+
+        doorCollider.isTrigger = true;
+        SpriteRenderer renderer = door.GetComponent<SpriteRenderer>();
+        if (renderer != null && renderer.sprite != null)
+        {
+            doorCollider.size = renderer.sprite.bounds.size;
+        }
+
+        DoorTeleportInteractable interactable =
+            door.GetComponent<DoorTeleportInteractable>();
+        if (interactable == null)
+        {
+            interactable = door.AddComponent<DoorTeleportInteractable>();
+        }
+
+        interactable.SetDestination(destination);
     }
 }

@@ -14,6 +14,12 @@ public class PlayerInteractor : MonoBehaviour
     [SerializeField] private Vector2 interactDirection = Vector2.up;
 
     private IInteractable currentInteractable;
+    private Scene2DialogueUI scene2DialogueUI;
+
+    private void Awake()
+    {
+        scene2DialogueUI = FindFirstObjectByType<Scene2DialogueUI>();
+    }
 
     public void ConfigureInteraction(Transform source, float range, LayerMask layer)
     {
@@ -113,6 +119,34 @@ public class PlayerInteractor : MonoBehaviour
         currentInteractable = null;
     }
 }
+
+    private void OnGUI()
+    {
+        if (currentInteractable == null ||
+            (dialogueUI != null && dialogueUI.IsOpen) ||
+            (scene2DialogueUI != null && scene2DialogueUI.IsOpen))
+        {
+            return;
+        }
+
+        const float height = 52f;
+        float width = Mathf.Min(360f, Screen.width - 32f);
+        Rect promptRect = new Rect(
+            (Screen.width - width) * 0.5f,
+            Screen.height - height - 24f,
+            width,
+            height
+        );
+
+        GUIStyle promptStyle = new GUIStyle(GUI.skin.box)
+        {
+            alignment = TextAnchor.MiddleCenter,
+            fontSize = 20,
+            fontStyle = FontStyle.Bold
+        };
+
+        GUI.Box(promptRect, "Press E to interact", promptStyle);
+    }
 
     private void OnDrawGizmosSelected()
     {
